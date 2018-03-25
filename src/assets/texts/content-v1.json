@@ -1,0 +1,22 @@
+{
+  "INTO": {
+    "titre": "Les meilleurs plats sont fait avec les meilleurs produits !",
+    "description_1": "Découvrez Pierrot, l’assistant vocal qui trouve les produits qui vous correspondent chez les producteurs et les artisans de votre quartier."
+  },
+  "COMP_1": {
+    "titre": "Redécouvrez la cuisine avec Pierrot",
+    "description_1": "Vous cuisinez une bonne raclette, mais vous en avez marre du fromage sans saveur ?",
+    "description_2": "Pierrot s’adapte à vos goûts pour trouver le fromager qui vous correspond, à deux pas de chez vous !",
+    "description_3": "Grâce à Pierrot, chacun de vos plats deviennent inoubliables !"
+  },
+  "COMP_2": {
+    "titre": "Ça vous interesse ?",
+    "description_1": "Découvrez Pierrot en avant-première !"
+  },
+  "FOOTER": {
+    "titre": "Suivez-nous !",
+    "description_1": "L’assistant vocal qui fait du bien à votre assiette. Pierrot connait les plats que vous aimez et trouve pour vous les meilleurs produits de votre quartier.",
+    "lien_1": "/github/pierrot-app",
+    "lien_2": "/medium/pierrot-app"
+  }
+}

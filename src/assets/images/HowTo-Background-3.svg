@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="238px" height="249px" viewBox="0 0 238 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>HowTo-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page" transform="translate(-576.000000, -987.000000)" fill="#EBF9F6">
+            <g id="HowItWorks" transform="translate(199.000000, 674.000000)">
+                <g id="HowTo-3" transform="translate(377.000000, 313.000000)">
+                    <path d="M99.556365,3.59095158 L129.740234,0.73828125 C184.070956,-4.39650237 232.277273,35.4846853 237.412057,89.8154071 C238.260323,98.7908395 237.876282,107.840139 236.270625,116.71143 L226.721368,169.471272 C217.233047,221.89444 167.043869,256.700011 114.620701,247.21169 C110.934648,246.544533 107.290587,245.663233 103.707031,244.572266 L95.6650094,242.123976 C38.8369256,224.8234 7.27479477e-15,172.403207 0,113 L0,113 C-6.94233479e-15,56.3115344 43.1193893,8.92479675 99.556365,3.59095158 Z" id="Background"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

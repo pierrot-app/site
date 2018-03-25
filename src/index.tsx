@@ -1,11 +1,13 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import App from './components/App/';
 import registerServiceWorker from './workers/registerServiceWorker';
 import './index.scss';
 
+import Home from './views/Home/';
+
+// TODO ADD react-router if necessary
 ReactDOM.render(
-  <App />,
+  <Home/>,
   document.getElementById('root') as HTMLElement
 );
 registerServiceWorker();
