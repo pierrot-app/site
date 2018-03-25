@@ -1,5 +1,5 @@
 {
-  "INTO": {
+  "INTRO": {
     "titre": "Les meilleurs plats sont fait avec les meilleurs produits !",
     "description_1": "Découvrez Pierrot, l’assistant vocal qui trouve les produits qui vous correspondent chez les producteurs et les artisans de votre quartier."
   },
@@ -16,7 +16,13 @@
   "FOOTER": {
     "titre": "Suivez-nous !",
     "description_1": "L’assistant vocal qui fait du bien à votre assiette. Pierrot connait les plats que vous aimez et trouve pour vous les meilleurs produits de votre quartier.",
-    "lien_1": "/github/pierrot-app",
-    "lien_2": "/medium/pierrot-app"
+    "lien_1": {
+      "lien": "/github/pierrot-app",
+      "titre": "github"
+    },
+    "lien_2": {
+      "lien": "/medium/pierrot-app",
+      "titre": "medium"
+    }
   }
 }
