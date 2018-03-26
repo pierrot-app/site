@@ -1,6 +1,8 @@
 {
-  "main.js": "static/js/main.645be39a.js",
-  "main.js.map": "static/js/main.645be39a.js.map",
+  "main.css": "static/css/main.faade63a.css",
+  "main.css.map": "static/css/main.faade63a.css.map",
+  "main.js": "static/js/main.b1d64396.js",
+  "main.js.map": "static/js/main.b1d64396.js.map",
   "static/media/Hero-Background.svg": "static/media/Hero-Background.f0325845.svg",
   "static/media/Hero.png": "static/media/Hero.e6088abf.png",
   "static/media/Highlight.png": "static/media/Highlight.eb609755.png",
@@ -10,14 +12,5 @@
   "static/media/HowTo-Background-1.svg": "static/media/HowTo-Background-1.cf50a1dd.svg",
   "static/media/HowTo-Background-2.svg": "static/media/HowTo-Background-2.556879d3.svg",
   "static/media/HowTo-Background-3.svg": "static/media/HowTo-Background-3.839886c1.svg",
-  "static/media/Logo-Texte.svg": "static/media/Logo-Texte.15fb307a.svg",
-  "static/media/comp1.scss": "static/media/comp1.328e1437.scss",
-  "static/media/comp2.scss": "static/media/comp2.f6cfd612.scss",
-  "static/media/email-input.scss": "static/media/email-input.db55bd4d.scss",
-  "static/media/footer.scss": "static/media/footer.7beda677.scss",
-  "static/media/home.scss": "static/media/home.4b13704a.scss",
-  "static/media/index.scss": "static/media/index.6cc2defa.scss",
-  "static/media/intro.scss": "static/media/intro.5416d09a.scss",
-  "static/media/xw-button.scss": "static/media/xw-button.a8809860.scss",
-  "static/media/xw-image.scss": "static/media/xw-image.2ba4e0d3.scss"
+  "static/media/Logo-Texte.svg": "static/media/Logo-Texte.15fb307a.svg"
 }
