@@ -33,19 +33,19 @@ class Intro extends React.Component<{}, ContentText> {
       <div className="intro">
         <div className="en-tete">
           <img src={logoTexte} className="logo-texte" alt="logo with texte" />
-          <XwButton/>
+          <XwButton className="intro-xw-button"/>
         </div>
         <div className="content">
           <div className="content-text">
             <div>
-              <p>{this.state.titre}</p>
-              <img src={Highlight} className="logo-texte" alt="logo with texte" />
+              <img src={Highlight} className="highlight" alt="logo with texte" />
+              <div className="titre">{this.state.titre}</div>
             </div>
             <p>{this.state.description1}</p>
             <EmailInput/>
           </div>
-          <div className="context-illustration">
-            <XwImage image={Hero} background={HeroBackground}/>
+          <div className="content-illustration">
+            <XwImage className="intro-illustration" image={Hero} background={HeroBackground}/>
           </div>
         </div>
       </div>

@@ -1,10 +1,19 @@
 import * as React from 'react';
 import './xw-button.scss';
 
-class XwButton extends React.Component {
+interface Style {
+  className: string;
+}
+
+class XwButton extends React.Component<Style, {}> {
+
+  constructor(props: Style) {
+    super(props);
+  }
+
   render() {
     return (
-      <div className="xw-button">
+      <div className={this.props.className}>
         <button>demander un démo</button>
       </div>
     );

@@ -37,15 +37,15 @@ class Comp1 extends React.Component<{}, ContentText> {
         <div>{this.state.titre}</div>
         <div>
           <div>{this.state.description1}</div>
-          <div><XwImage image={HowTo1} background={HowTo1Background}/></div>
+          <div><XwImage className="" image={HowTo1} background={HowTo1Background}/></div>
         </div>
         <div>
           <div>{this.state.description2}</div>
-          <div><XwImage image={HowTo2} background={HowTo2Background}/></div>
+          <div><XwImage className="" image={HowTo2} background={HowTo2Background}/></div>
         </div>
         <div>
           <div>{this.state.description3}</div>
-          <div><XwImage image={HowTo3} background={HowTo3Background}/></div>
+          <div><XwImage className="" image={HowTo3} background={HowTo3Background}/></div>
         </div>
       </div>
     );
