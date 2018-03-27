@@ -11,14 +11,14 @@
       border-color: inherit;
       -webkit-box-shadow: none;
       box-shadow: none;
-      font-size: 1em;
     }
     .input-text{
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
+      font-size: 1em;
       background-color: $blanc;
       border-color: $vert;
-      padding: 17px 80px 17px 20px;
+      padding: 16px 80px 16px 20px;
       width: 250px;
       &:hover, &:focus{
         border-color: $bleu;
@@ -47,10 +47,11 @@
 
     }
     .input-submit{
-      padding: 18px 40px;
+      padding: 17px 40px;
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
       color: $blanc;
+      font-size: 1em;
       border-color: $vert;
       background-color: $vert;
       -webkit-transition: background-color 0.3s;
