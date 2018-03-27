@@ -1,6 +1,6 @@
 ## Check: https://pierrot-app.github.io/site/
 ## Change text -> edit : https://github.com/pierrot-app/site/blob/master/src/assets/texts/content-v1.json
-
+## NB: https://www.cssfontstack.com/Open-Sans
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

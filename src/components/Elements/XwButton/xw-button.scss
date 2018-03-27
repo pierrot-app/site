@@ -1,3 +1,19 @@
-.xw-button {
+@import './../../Elements/Styles/colors';
 
+.xw-button {
+  button{
+    background-color: $vert;
+    color: $blanc;
+    padding: 18px 40px;
+    font-size: 1.1em;
+    letter-spacing: 0.75px;
+    border-radius: 10px;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    &:hover{
+      background-color: $bleu;
+      -webkit-transition: background-color 0.5s;
+      transition: background-color 0.5s;
+    }
+  }
 }

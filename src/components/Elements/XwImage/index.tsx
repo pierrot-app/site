@@ -15,7 +15,7 @@ class XwIimage extends React.Component<ListImages, {}> {
 
   render() {
     return (
-      <div className={this.props.className}>
+      <div className={`${this.props.className} xw-image`}>
         <img src={this.props.background} className="image" alt="image" />
         <img src={this.props.image} className="background" alt="background" />
       </div>

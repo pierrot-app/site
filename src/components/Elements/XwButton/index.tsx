@@ -13,8 +13,8 @@ class XwButton extends React.Component<Style, {}> {
 
   render() {
     return (
-      <div className={this.props.className}>
-        <button>demander un démo</button>
+      <div className={`${this.props.className} xw-button`}>
+        <button>Demander une démo</button>
       </div>
     );
   }

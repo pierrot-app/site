@@ -6,8 +6,8 @@ class EmailInput extends React.Component {
     return (
       <div className="email-input">
         <form action="">
-          <input type="text" placeholder="Entrez votre addresse email" />
-          <input type="submit" value="ça m'interesse" />
+          <input className="input-text" type="text" placeholder="Entrez votre addresse email" />
+          <input className="input-submit" type="submit" value="ça m'interesse" />
         </form>
       </div>
     );

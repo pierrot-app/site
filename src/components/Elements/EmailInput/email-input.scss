@@ -1,3 +1,67 @@
-.email-input {
+@import './../../Elements/Styles/colors';
 
+.email-input {
+  form {
+    input{
+      font-size: 0.5em;
+      letter-spacing: 0.75px;
+      -webkit-transition: background-color 0.3s;
+      transition: background-color 0.3s;
+      outline: none;
+      border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      font-size: 1em;
+    }
+    .input-text{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: $blanc;
+      border-color: $vert;
+      padding: 17px 80px 17px 20px;
+      width: 250px;
+      &:hover, &:focus{
+        border-color: $bleu;
+      }
+      &:focus {
+        &::placeholder {
+          color: $bleu;
+          font-size: 0.75em;
+          transform: translateY(-50%);
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          transition: 0.15s ease-in-out;
+        }
+        &+ .input-submit{
+            border-color: $bleu;
+            background-color: $bleu;
+            -webkit-transition: background-color 0.5s;
+            transition: background-color 0.5s;
+            -webkit-transition: border-color 0.5s;
+            transition: border-color 0.5s;
+        }
+      }
+      &::placeholder {
+        color: $vert;
+      }
+
+    }
+    .input-submit{
+      padding: 18px 40px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      color: $blanc;
+      border-color: $vert;
+      background-color: $vert;
+      -webkit-transition: background-color 0.3s;
+      transition: background-color 0.3s;
+      &:hover{
+        background-color: $bleu;
+        border-color: $bleu;
+        -webkit-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+        cursor: pointer;
+      }
+    }
+  }
 }
