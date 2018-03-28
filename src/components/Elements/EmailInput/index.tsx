@@ -3,7 +3,6 @@ import './email-input.scss';
 
 interface EmailInputState {
   value: string;
-  button: string;
 }
 
 class EmailInput extends React.Component<{}, EmailInputState> {
@@ -11,7 +10,7 @@ class EmailInput extends React.Component<{}, EmailInputState> {
   constructor(props: {}) {
     super(props);
 
-    this.state = {value: '', button: 'ça m\'interesse'};
+    this.state = {value: ''};
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
 
@@ -32,7 +31,7 @@ class EmailInput extends React.Component<{}, EmailInputState> {
      formData.append('email', this.state.value);
      fetch(scriptURL, { method: 'POST', body: formData })
        .then(response => {
-         this.setState({value: '', button: 'merci !'});
+         this.setState({value: ''});
         })
        .catch(error =>  error.message);
    }
@@ -43,7 +42,7 @@ class EmailInput extends React.Component<{}, EmailInputState> {
     return (
       <div className="email-input">
         <input className="input-text" type="text" value={this.state.value} onChange={e => this.handleChange(e)} placeholder="Entrez votre addresse email"/>
-        <button className="input-submit" type="submit" onClick={e => this.handleSubmit(e)}>{this.state.button}</button>
+        <button className="input-submit" type="submit" onClick={e => this.handleSubmit(e)}>ça m'interesse</button>
       </div>
     );
   }
