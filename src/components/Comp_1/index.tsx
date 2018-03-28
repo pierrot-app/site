@@ -34,18 +34,18 @@ class Comp1 extends React.Component<{}, ContentText> {
   render() {
     return (
       <div className="comp-1">
-        <div>{this.state.titre}</div>
-        <div>
-          <div>{this.state.description1}</div>
-          <div><XwImage className="" image={HowTo1} background={HowTo1Background}/></div>
+        <div className="comp-1-titre">{this.state.titre}</div>
+        <div className="comp-1-content1">
+          <XwImage className="howto1" image={HowTo1} background={HowTo1Background}/>
+          <div className="comp-1-description1">{this.state.description1}</div>
         </div>
-        <div>
-          <div>{this.state.description2}</div>
-          <div><XwImage className="" image={HowTo2} background={HowTo2Background}/></div>
+        <div className="comp-1-content2">
+          <div className="comp-1-description2">{this.state.description2}</div>
+          <div><XwImage className="howto2" image={HowTo2} background={HowTo2Background}/></div>
         </div>
-        <div>
-          <div>{this.state.description3}</div>
-          <div><XwImage className="" image={HowTo3} background={HowTo3Background}/></div>
+        <div className="comp-1-content3">
+          <div className="comp-1-description3">{this.state.description3}</div>
+          <div><XwImage className="howto3" image={HowTo3} background={HowTo3Background}/></div>
         </div>
       </div>
     );

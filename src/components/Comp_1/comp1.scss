@@ -1,5 +1,73 @@
 @import './../Elements/Styles/colors';
+$contentWidth: 55%;
+$contentMarginTop: 15%;
+$contentMarginBottom: 10%;
+
+$descriptionWidth: 40%;
+
+$imageWidth: 25%;
+$imageMarginTop: -10%;
+$imagePosition: 20%;
 
 .comp-1 {
-  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  &-titre{
+    align-self: center;
+    margin-top: 10%;
+  }
+  &-content1{
+    align-self: center;
+    margin-top: $contentMarginTop;
+    margin-bottom: $contentMarginBottom;
+    display: flex;
+    justify-content: flex-end;
+    width: $contentWidth;
+    .comp-1-description1{
+      width: $descriptionWidth;
+    }
+    .howto1{
+      img {
+        width: $imageWidth;
+        margin-top: $imageMarginTop;
+        left: $imagePosition;
+      }
+    }
+  }
+  &-content2{
+    align-self: center;
+    margin-top: $contentMarginTop;
+    margin-bottom: $contentMarginBottom;
+    display: flex;
+    justify-content: flex-start;
+    width: $contentWidth;
+    .comp-1-description2{
+      width: $descriptionWidth;
+    }
+    .howto2{
+      img {
+        width: $imageWidth;
+        margin-top: $imageMarginTop;
+        right: $imagePosition;
+      }
+    }
+  }
+  &-content3{
+    align-self: center;
+    margin-top: $contentMarginTop;
+    margin-bottom: $contentMarginBottom;
+    display: flex;
+    justify-content: flex-end;
+    width: $contentWidth;
+    .comp-1-description3{
+      width: $descriptionWidth;
+    }
+    .howto3{
+      img {
+        width: $imageWidth;
+        margin-top: $imageMarginTop;
+        left: $imagePosition;
+      }
+    }
+  }
 }

@@ -1,13 +1,17 @@
 import * as React from 'react';
 import './email-input.scss';
 
+interface EmailInputProps {
+  className: string;
+}
+
 interface EmailInputState {
   value: string;
 }
 
-class EmailInput extends React.Component<{}, EmailInputState> {
+class EmailInput extends React.Component<EmailInputProps, EmailInputState> {
 
-  constructor(props: {}) {
+  constructor(props: EmailInputProps) {
     super(props);
 
     this.state = {value: ''};
@@ -40,7 +44,7 @@ class EmailInput extends React.Component<{}, EmailInputState> {
 
   render() {
     return (
-      <div className="email-input">
+      <div className={`${this.props.className} email-input`}>
         <input className="input-text" type="text" value={this.state.value} onChange={e => this.handleChange(e)} placeholder="Entrez votre addresse email"/>
         <button className="input-submit" type="submit" onClick={e => this.handleSubmit(e)}>ça m'interesse</button>
       </div>

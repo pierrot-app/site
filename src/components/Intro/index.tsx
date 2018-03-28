@@ -42,7 +42,7 @@ class Intro extends React.Component<{}, ContentText> {
               <div className="titre">{this.state.titre}</div>
             </div>
             <p>{this.state.description1}</p>
-            <EmailInput/>
+            <EmailInput className="email"/>
           </div>
           <div className="content-illustration">
             <XwImage className="intro-illustration" image={Hero} background={HeroBackground}/>

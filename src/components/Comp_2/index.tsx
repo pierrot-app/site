@@ -22,9 +22,9 @@ class Comp2 extends React.Component<{}, ContentText> {
   render() {
     return (
       <div className="comp-2">
-        <div>{this.state.titre}</div>
-        <div>{this.state.description1}</div>
-        <EmailInput/>
+        <div className="titre">{this.state.titre}</div>
+        <div className="description">{this.state.description1}</div>
+        <EmailInput className="email"/>
       </div>
     );
   }

@@ -1,5 +1,20 @@
 @import './../Elements/Styles/colors';
 
 .comp-2 {
-  background-color: purple;
+  background-color: $gris;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .titre{
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 0.2%;
+  }
+  .description{
+  }
+  .email{
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
 }
