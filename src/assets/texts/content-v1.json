@@ -15,7 +15,7 @@
   },
   "FOOTER": {
     "titre": "",
-    "description_1": "<b>L’assistant vocal qui fait du bien à votre assiette.</b></br> Pierrot connait les plats que vous aimez et trouve </br> pour vous les meilleurs produits de votre quartier.",
+    "description_1": "<b>L’assistant vocal qui fait du bien à votre assiette.</b> Pierrot connait les plats que vous aimez et trouve pour vous les meilleurs produits de votre quartier.",
     "lien_1": {
       "lien": "https://github.com/pierrot-app",
       "logo": "github.png",
