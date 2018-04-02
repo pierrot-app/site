@@ -21,8 +21,8 @@
     display: flex;
     justify-content:space-between;
     &-text {
-      height: 100%;
-      width: 40%;
+      width: 42%;
+      max-width: 620px;
       margin-top: 15%;
       margin-bottom: 15%;
       margin-left: 10%;
@@ -31,7 +31,7 @@
       color: $noir;
       div {
         .titre {
-          width: 40%;
+          width: 35%;
           position: absolute;
           z-index: 1;
           font-size: 2em;
@@ -48,6 +48,8 @@
           position: absolute;
           transform: rotate(-4deg);
         }
+      }
+      .email{
       }
       .description {
         margin-top: 24%;
