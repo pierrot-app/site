@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.f099d931.css",
-  "main.css.map": "static/css/main.f099d931.css.map",
-  "main.js": "static/js/main.a472cd62.js",
-  "main.js.map": "static/js/main.a472cd62.js.map",
+  "main.css": "static/css/main.e6f0e400.css",
+  "main.css.map": "static/css/main.e6f0e400.css.map",
+  "main.js": "static/js/main.4b7a2bca.js",
+  "main.js.map": "static/js/main.4b7a2bca.js.map",
   "static/media/Hero-Background.svg": "static/media/Hero-Background.f0325845.svg",
   "static/media/Hero.png": "static/media/Hero.e6088abf.png",
   "static/media/Highlight.png": "static/media/Highlight.eb609755.png",
@@ -13,5 +13,8 @@
   "static/media/HowTo-Background-2.svg": "static/media/HowTo-Background-2.556879d3.svg",
   "static/media/HowTo-Background-3.svg": "static/media/HowTo-Background-3.839886c1.svg",
   "static/media/Logo-Texte-White.svg": "static/media/Logo-Texte-White.01aef586.svg",
-  "static/media/Logo-Texte.svg": "static/media/Logo-Texte.15fb307a.svg"
+  "static/media/Logo-Texte.svg": "static/media/Logo-Texte.15fb307a.svg",
+  "static/media/Logo.svg": "static/media/Logo.8f92349f.svg",
+  "static/media/github.png": "static/media/github.8c75b002.png",
+  "static/media/medium.png": "static/media/medium.1ec3ca15.png"
 }
