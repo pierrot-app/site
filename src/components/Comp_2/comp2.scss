@@ -1,20 +1,28 @@
 @import './../Elements/Styles/colors';
 
 .comp-2 {
-  background-color: $gris;
+  background-color: $gray2;
   margin-top: 8%;
   display: flex;
   flex-direction: column;
   align-items: center;
   .titre{
     font-size: 2em;
-    margin-top: 5%;
-    margin-bottom: 0.2%;
+    margin-top: 6%;
+    margin-bottom: 0.7%;
+    b {
+      font-weight: 700;
+    }
   }
   .description{
+    font-size: 1.2rem;
+    color: $textgray;
+    b {
+      font-weight: 700;
+    }
   }
   .email{
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-top: 1.8%;
+    margin-bottom: 7%;
   }
 }

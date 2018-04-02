@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './intro.scss';
+import { INNERHTML } from './../../utils';
 import XwButton from './../Elements/XwButton/';
 import XwImage from './../Elements/XwImage/';
 import EmailInput from './../Elements/EmailInput/';
@@ -9,12 +10,15 @@ const Hero = require('./../../assets/images/Hero.png');
 const HeroBackground = require('./../../assets/images/Hero-Background.svg');
 const content = require('./../../assets/texts/content-v1.json');
 
-interface ContentText {
+interface ContentTextState {
   titre: string;
   description1?: string;
 }
 
-class Intro extends React.Component<{}, ContentText> {
+class Intro extends React.Component<{}, ContentTextState> {
+
+  public titreRef: HTMLDivElement | null;
+  public descriptionRef: HTMLDivElement | null;
 
   public constructor(props: {}) {
     super(props);
@@ -25,8 +29,12 @@ class Intro extends React.Component<{}, ContentText> {
 
   }
 
-  /*componentDidMount() {}*/
-  /*componentWillUnmount() {}*/
+  componentDidMount() {
+
+    INNERHTML(this.titreRef, this.state.titre);
+    INNERHTML(this.descriptionRef, this.state.description1);
+
+  }
 
   render() {
     return (
@@ -39,9 +47,9 @@ class Intro extends React.Component<{}, ContentText> {
           <div className="content-text">
             <div>
               <img src={Highlight} className="highlight" alt="logo with texte" />
-              <div className="titre">{this.state.titre}</div>
+              <div className="titre" ref={titreRef => this.titreRef = titreRef}/>
             </div>
-            <p>{this.state.description1}</p>
+            <div className="description" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
             <EmailInput className="email"/>
           </div>
           <div className="content-illustration">

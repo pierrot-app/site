@@ -4,6 +4,7 @@
   background-color: white;
   .en-tete {
     display: flex;
+    margin-top: 2%;
     justify-content:space-between;
     .logo-texte {
       width: 12%;
@@ -34,15 +35,28 @@
           position: absolute;
           z-index: 1;
           font-size: 2em;
+          color: #222222;
+          line-height: 34px;
+          font-weight: 400;
+          color: $textblack;
+          b {
+            font-weight: 700;
+          }
         }
         .highlight {
           width: 40%;
           position: absolute;
+          transform: rotate(-4deg);
         }
       }
-      p {
-        margin-top: 25%;
+      .description {
+        margin-top: 24%;
+        margin-bottom: 4%;
         font-size: 1.2em;
+        color: $textgray;
+        b {
+          font-weight: 700;
+        }
       }
     }
     &-illustration {

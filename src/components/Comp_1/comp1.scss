@@ -1,6 +1,6 @@
 @import './../Elements/Styles/colors';
 $contentWidth: 55%;
-$contentMarginTop: 15%;
+$contentMarginTop: 9%;
 $contentMarginBottom: 10%;
 
 $descriptionWidth: 40%;
@@ -14,7 +14,13 @@ $imagePosition: 20%;
   flex-direction: column;
   &-titre{
     align-self: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 1.9rem;
+    color: $textblack;
+    b {
+      font-weight: 700;
+    }
   }
   &-content1{
     align-self: center;
@@ -25,6 +31,11 @@ $imagePosition: 20%;
     width: $contentWidth;
     .comp-1-description1{
       width: $descriptionWidth;
+      font-size: 1.2rem;
+      color: $textgray;
+      b {
+        font-weight: 700;
+      }
     }
     .howto1{
       img {
@@ -41,8 +52,13 @@ $imagePosition: 20%;
     display: flex;
     justify-content: flex-start;
     width: $contentWidth;
+    font-size: 1.2rem;
+    color: $textgray;
     .comp-1-description2{
       width: $descriptionWidth;
+      b {
+        font-weight: 700;
+      }
     }
     .howto2{
       img {
@@ -61,6 +77,11 @@ $imagePosition: 20%;
     width: $contentWidth;
     .comp-1-description3{
       width: $descriptionWidth;
+      font-size: 1.2rem;
+      color: $textgray;
+      b {
+        font-weight: 700;
+      }
     }
     .howto3{
       img {

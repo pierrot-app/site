@@ -14,7 +14,9 @@ class XwButton extends React.Component<Style, {}> {
   render() {
     return (
       <div className={`${this.props.className} xw-button`}>
-        <button>Demander une démo</button>
+        <button>
+          <a href="mailto:pierrot-app@edu.gobelins.fr">Demander une démo</a>
+        </button>
       </div>
     );
   }

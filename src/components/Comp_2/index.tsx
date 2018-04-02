@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './comp2.scss';
+import { INNERHTML } from './../../utils';
 import EmailInput from './../Elements/EmailInput/';
 const content = require('./../../assets/texts/content-v1.json');
 
@@ -10,6 +11,9 @@ interface ContentText {
 
 class Comp2 extends React.Component<{}, ContentText> {
 
+  public titreRef: HTMLDivElement | null;
+  public descriptionRef: HTMLDivElement | null;
+
   public constructor(props: {}) {
     super(props);
 
@@ -19,11 +23,18 @@ class Comp2 extends React.Component<{}, ContentText> {
 
   }
 
+  componentDidMount() {
+
+    INNERHTML(this.titreRef, this.state.titre);
+    INNERHTML(this.descriptionRef, this.state.description1);
+
+  }
+
   render() {
     return (
       <div className="comp-2">
-        <div className="titre">{this.state.titre}</div>
-        <div className="description">{this.state.description1}</div>
+        <div className="titre" ref={titreRef => this.titreRef = titreRef}/>
+        <div className="description" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
         <EmailInput className="email"/>
       </div>
     );

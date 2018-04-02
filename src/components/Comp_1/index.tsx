@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './comp1.scss';
+import { INNERHTML } from './../../utils';
 import XwImage from './../Elements/XwImage/';
 const HowTo1 = require('./../../assets/images/HowTo-1.png');
 const HowTo2 = require('./../../assets/images/HowTo-2.png');
@@ -18,6 +19,11 @@ interface ContentText {
 
 class Comp1 extends React.Component<{}, ContentText> {
 
+  public titreRef: HTMLDivElement | null;
+  public description1Ref: HTMLDivElement | null;
+  public description2Ref: HTMLDivElement | null;
+  public description3Ref: HTMLDivElement | null;
+
   public constructor(props: {}) {
     super(props);
 
@@ -29,22 +35,31 @@ class Comp1 extends React.Component<{}, ContentText> {
                   description1: description1,
                   description2: description2,
                   description3: description3};
+                  }
+
+  componentDidMount() {
+
+    INNERHTML(this.titreRef, this.state.titre);
+    INNERHTML(this.description1Ref, this.state.description1);
+    INNERHTML(this.description2Ref, this.state.description2);
+    INNERHTML(this.description3Ref, this.state.description3);
+
   }
 
   render() {
     return (
       <div className="comp-1">
-        <div className="comp-1-titre">{this.state.titre}</div>
+        <div className="comp-1-titre" ref={titreRef => this.titreRef = titreRef}/>
         <div className="comp-1-content1">
           <XwImage className="howto1" image={HowTo1} background={HowTo1Background}/>
-          <div className="comp-1-description1">{this.state.description1}</div>
+          <div className="comp-1-description1" ref={description1Ref => this.description1Ref = description1Ref}/>
         </div>
         <div className="comp-1-content2">
-          <div className="comp-1-description2">{this.state.description2}</div>
+          <div className="comp-1-description2" ref={description2Ref => this.description2Ref = description2Ref} />
           <div><XwImage className="howto2" image={HowTo2} background={HowTo2Background}/></div>
         </div>
         <div className="comp-1-content3">
-          <div className="comp-1-description3">{this.state.description3}</div>
+          <div className="comp-1-description3" ref={description3Ref => this.description3Ref = description3Ref}/>
           <div><XwImage className="howto3" image={HowTo3} background={HowTo3Background}/></div>
         </div>
       </div>
