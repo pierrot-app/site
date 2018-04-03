@@ -1,29 +1,29 @@
 {
   "INTRO": {
-    "titre": "<b>Les meilleurs plats</b> sont fait avec <b>les meilleurs produits !</b>",
-    "description_1": "<b>Découvrez Pierrot</b>, l’assistant vocal qui trouve les produits qui vous correspondent </br> <b>chez les producteurs et les artisans</b> de votre quartier."
+    "titre": "<b>Les meilleurs plats</b> sont fait avec <b>les meilleurs produits&nbsp;!</b>",
+    "description_1": "<b>Découvrez Pierrot</b>, l’assistant vocal qui trouve les produits qui vous correspondent <b>chez les producteurs et les artisans</b> de votre quartier."
   },
   "COMP_1": {
     "titre": "<b>Redécouvrez la cuisine</b> avec Pierrot",
-    "description_1": "<b>Vous cuisinez</b> une bonne raclette, mais <b>vous en avez marre</b> du fromage <b>sans saveur</b> ?",
-    "description_2": "<b>Pierrot s’adapte à vos goûts</b> pour <b>trouver le fromager</b> qui vous correspond, <b>à deux pas</b> de chez vous !",
-    "description_3": "Grâce à Pierrot, chacun de <b>vos plats</b> deviennent <b>inoubliables</b> !"
+    "description_1": "<b>Vous cuisinez</b> une bonne raclette, mais <b>vous en avez marre</b> du fromage <b>sans saveur</b>&nbsp;?",
+    "description_2": "<b>Pierrot s’adapte à vos goûts</b> pour <b>trouver le fromager</b> qui vous correspond, <b>à deux pas</b> de chez vous&nbsp;!",
+    "description_3": "Grâce à Pierrot, chacun de <b>vos plats</b> deviennent <b>inoubliables</b>&nbsp;!"
   },
   "COMP_2": {
-    "titre": "<b>Ça vous interesse ?</b>",
-    "description_1": "Découvrez Pierrot en avant-première !"
+    "titre": "<b>Ça vous interesse&nbsp;?</b>",
+    "description_1": "Découvrez Pierrot en avant-première&nbsp;!"
   },
   "FOOTER": {
     "titre": "",
     "description_1": "<b>L’assistant vocal qui fait du bien à votre assiette.</b> Pierrot connait les plats que vous aimez et trouve pour vous les meilleurs produits de votre quartier.",
     "lien_1": {
       "lien": "https://github.com/pierrot-app",
-      "logo": "github.png",
+      "logo": "github.svg",
       "titre": "github"
     },
     "lien_2": {
       "lien": "https://medium.com/@pierrotapp",
-      "logo": "medium.png",
+      "logo": "medium.svg",
       "titre": "medium"
     }
   }

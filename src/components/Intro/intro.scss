@@ -23,7 +23,7 @@
     &-text {
       width: 42%;
       max-width: 620px;
-      margin-top: 11%;
+      margin-top: 15%;
       margin-bottom: 15%;
       margin-left: 10%;
       background-color: transparent;
@@ -36,7 +36,7 @@
           z-index: 1;
           font-size: 2em;
           color: #222222;
-          line-height: 34px;
+          line-height: 44px;
           font-weight: 400;
           color: $textblack;
           b {
@@ -44,7 +44,7 @@
           }
         }
         .highlight {
-          width: 40%;
+          width: 30%;
           position: absolute;
           transform: rotate(-4deg);
         }
