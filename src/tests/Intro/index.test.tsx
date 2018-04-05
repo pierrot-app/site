@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Intro from './../../components/Intro/';
+import Intro from './../../containers/Intro/';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

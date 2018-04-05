@@ -1,9 +1,10 @@
 import * as React from 'react';
 import './intro.scss';
 import { INNERHTML } from './../../utils';
-import XwButton from './../Elements/XwButton/';
-import XwImage from './../Elements/XwImage/';
-import EmailInput from './../Elements/EmailInput/';
+import { XwButton } from './../../components/XwButton/';
+import { XwImage } from './../../components/XwImage/';
+import EmailInput from './../../components/EmailInput/';
+
 const logoTexte = require('./../../assets/images/Logo-Texte.svg');
 const Highlight = require('./../../assets/images/Highlight.png');
 const Hero = require('./../../assets/images/Hero.png');

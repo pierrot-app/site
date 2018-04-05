@@ -1,4 +1,4 @@
-@import './../Elements/Styles/colors';
+@import './../../Styles/colors';
 
 .intro {
   background-color: white;
@@ -78,4 +78,5 @@
   }
 }
 
-@import './intro.1260.scss';
+@import './intro.medium.scss';
+@import './intro.small.scss';

@@ -1,4 +1,4 @@
-@import './../Elements/Styles/colors';
+@import './../../Styles/colors';
 
 $paddingTop: 5%;
 $paddingBottom: 5%;
@@ -50,4 +50,5 @@ $paddingLeft: 12%;
   }
 }
 
-@import './footer.1260.scss';
+@import './footer.medium.scss';
+@import './footer.small.scss';

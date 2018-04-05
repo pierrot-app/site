@@ -1,7 +1,8 @@
 import * as React from 'react';
 import './comp1.scss';
 import { INNERHTML } from './../../utils';
-import XwImage from './../Elements/XwImage/';
+import { XwImage } from './../../components/XwImage/';
+
 const HowTo1 = require('./../../assets/images/HowTo-1.png');
 const HowTo2 = require('./../../assets/images/HowTo-2.png');
 const HowTo3 = require('./../../assets/images/HowTo-3.png');
