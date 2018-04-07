@@ -1,9 +1,10 @@
-@import './../Elements/Styles/colors';
+@import './../../Styles/colors';
 
 .intro {
   background-color: white;
   .en-tete {
     display: flex;
+    margin-top: 2%;
     justify-content:space-between;
     .logo-texte {
       width: 12%;
@@ -20,9 +21,9 @@
     display: flex;
     justify-content:space-between;
     &-text {
-      height: 100%;
-      width: 40%;
-      margin-top: 15%;
+      width: 42%;
+      max-width: 620px;
+      margin-top: 11%;
       margin-bottom: 15%;
       margin-left: 10%;
       background-color: transparent;
@@ -30,19 +31,35 @@
       color: $noir;
       div {
         .titre {
-          width: 40%;
+          width: 35%;
           position: absolute;
           z-index: 1;
           font-size: 2em;
+          color: #222222;
+          line-height: 34px;
+          font-weight: 400;
+          color: $textblack;
+          b {
+            font-weight: 700;
+          }
         }
         .highlight {
           width: 40%;
           position: absolute;
+          transform: rotate(-4deg);
         }
       }
-      p {
-        margin-top: 25%;
+      .email{
+      }
+      .description {
+        width: 85%;
+        margin-top: 24%;
+        margin-bottom: 4%;
         font-size: 1.2em;
+        color: $textgray;
+        b {
+          font-weight: 700;
+        }
       }
     }
     &-illustration {
@@ -60,3 +77,6 @@
     }
   }
 }
+
+@import './intro.medium.scss';
+@import './intro.small.scss';

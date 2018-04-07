@@ -1,6 +1,9 @@
-@import './../../Elements/Styles/colors';
+@import './../../Styles/colors';
 
 .email-input {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
   input{
     font-size: 0.5em;
     letter-spacing: 0.75px;
@@ -18,15 +21,19 @@
     background-color: $blanc;
     border-color: $vert;
     padding: 16px 80px 16px 20px;
-    width: 250px;
+    width: 100%;
     &:hover, &:focus{
       border-color: $bleu;
+    }
+    &::placeholder {
+      transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      transition: 0.15s ease-in-out;
     }
     &:focus {
       &::placeholder {
         color: $bleu;
         font-size: 0.75em;
-        transform: translateY(-50%);
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
         transition: 0.15s ease-in-out;
@@ -46,6 +53,7 @@
 
   }
   .input-submit{
+    width: 70%;
     padding: 17px 40px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;

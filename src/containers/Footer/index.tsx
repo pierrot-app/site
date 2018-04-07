@@ -1,11 +1,14 @@
 import * as React from 'react';
 import './footer.scss';
+import { INNERHTML } from './../../utils';
+
 const logoTexteWhite = require('./../../assets/images/Logo-Texte-White.svg');
 const content = require('./../../assets/texts/content-v1.json');
 
 interface Liens {
   lien?: string;
   titre?: string;
+  logo?: string;
 }
 
 interface ContentText {
@@ -16,6 +19,9 @@ interface ContentText {
 }
 
 class Footer extends React.Component<{}, ContentText> {
+
+  public titreRef: HTMLDivElement | null;
+  public descriptionRef: HTMLDivElement | null;
 
   public constructor(props: {}) {
     super(props);
@@ -30,17 +36,28 @@ class Footer extends React.Component<{}, ContentText> {
                   lien2: lien2};
   }
 
+  componentDidMount() {
+
+    INNERHTML(this.titreRef, this.state.titre);
+    INNERHTML(this.descriptionRef, this.state.description1);
+
+  }
+
   render() {
     return (
       <div className="footer">
         <div className="social-content">
           <img src={logoTexteWhite} className="logo-texte" alt="logo with texte" />
-          <p>{this.state.titre}</p>
-          <p>{this.state.description1}</p>
+          <div className="social-content-text" ref={titreRef => this.titreRef = titreRef}/>
+          <div className="social-content-text" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
         </div>
         <div className="social-link">
-          <a href={this.state.lien1.lien}>{this.state.lien1.titre}</a>
-          <a href={this.state.lien2.lien}>{this.state.lien2.titre}</a>
+          <a href={this.state.lien1.lien}>
+            <img className="social-logo" src={require(`./../../assets/images/${this.state.lien1.logo}`)} alt={this.state.lien1.titre}/>
+          </a>
+          <a href={this.state.lien2.lien}>
+            <img className="social-logo" src={require(`./../../assets/images/${this.state.lien2.logo}`)} alt={this.state.lien2.titre}/>
+          </a>
         </div>
       </div>
     );
