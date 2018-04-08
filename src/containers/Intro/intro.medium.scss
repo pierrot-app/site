@@ -1,5 +1,51 @@
-@media screen and (max-width: 1260) {
+@media screen and (max-width: 1260px) {
   .intro {
-    
+    .en-tete {
+      .logo-texte {
+      }
+      .intro-xw-button {
+      }
+    }
+    .content{
+      &-text {
+          .titre {
+            font-size: 1.3em;
+            b {
+              font-weight: 700;
+            }
+          }
+          .highlight {
+            width: 40%;
+            position: absolute;
+            transform: rotate(-4deg);
+          }
+        .email{
+        }
+        .description {
+          display: inline-block;
+          width: 85%;
+          margin-top: 24%;
+          margin-bottom: 4%;
+          font-size: 0.9em;
+          color: $textgray;
+          b {
+            font-weight: 700;
+          }
+        }
+      }
+      &-illustration {
+        .intro-illustration {
+          img {
+            right: -3%;
+          }
+          .image {
+            top: 30%;
+          }
+          .background{
+            top: 35%;
+          }
+        }
+      }
+    }
   }
 }

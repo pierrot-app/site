@@ -46,10 +46,8 @@ class Intro extends React.Component<{}, ContentTextState> {
         </div>
         <div className="content">
           <div className="content-text">
-            <div>
               <img src={Highlight} className="highlight" alt="logo with texte" />
               <div className="titre" ref={titreRef => this.titreRef = titreRef}/>
-            </div>
             <div className="description" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
             <EmailInput className="email"/>
           </div>
