@@ -3,8 +3,8 @@
 $contentWidth: 55%;
 $contentMarginTop: 9%;
 $contentMarginBottom: 10%;
-$descriptionWidth: 40%;
-$imageWidth: 25%;
+$descriptionWidth: 100%;
+$imageWidth: 55%;
 $imageMarginTop: -10%;
 $imagePosition: 20%;
 
@@ -13,8 +13,8 @@ $imagePosition: 20%;
   flex-direction: column;
   &-titre{
     align-self: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-bottom: 50px;
     font-size: 1.9rem;
     color: $textblack;
     b {
@@ -24,7 +24,6 @@ $imagePosition: 20%;
   &-content1{
     align-self: center;
     margin-top: $contentMarginTop;
-    margin-bottom: $contentMarginBottom;
     display: flex;
     justify-content: flex-end;
     width: $contentWidth;
@@ -47,7 +46,6 @@ $imagePosition: 20%;
   &-content2{
     align-self: center;
     margin-top: $contentMarginTop;
-    margin-bottom: $contentMarginBottom;
     display: flex;
     justify-content: flex-start;
     width: $contentWidth;
@@ -64,13 +62,16 @@ $imagePosition: 20%;
         width: $imageWidth;
         margin-top: $imageMarginTop;
         right: $imagePosition;
+        float: right;
       }
     }
+  }
+  &-content2.mobile {
+    display: none;
   }
   &-content3{
     align-self: center;
     margin-top: $contentMarginTop;
-    margin-bottom: $contentMarginBottom;
     display: flex;
     justify-content: flex-end;
     width: $contentWidth;

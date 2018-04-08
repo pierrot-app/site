@@ -14,7 +14,6 @@ export const XwImage = (
   image,
 }: ListImages) => (
   <div className={`${className} xw-image`}>
-    <img src={background} className="image" alt="image" />
     <img src={image} className="background" alt="background" />
   </div>
 );

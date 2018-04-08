@@ -1,0 +1,24 @@
+@import './../../Styles/colors';
+
+@media screen and (max-width: 820px) {
+    .footer {
+        .social-content {
+            padding: 25px;
+          img{
+          }
+          .social-content-text {
+              width: inherit;
+              font-size: 0.8em;
+            b {
+            }
+          }
+        }
+      
+        .social-link {
+          a {
+            .social-logo {
+            }
+          }
+        }
+      }
+}

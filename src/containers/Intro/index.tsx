@@ -7,7 +7,7 @@ import EmailInput from './../../components/EmailInput/';
 
 const logoTexte = require('./../../assets/images/Logo-Texte.svg');
 const Highlight = require('./../../assets/images/Highlight.png');
-const Hero = require('./../../assets/images/Hero.png');
+const Hero = require('./../../assets/images/Hero-Image.png');
 const HeroBackground = require('./../../assets/images/Hero-Background.svg');
 const content = require('./../../assets/texts/content-v1.json');
 

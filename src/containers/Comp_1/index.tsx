@@ -22,7 +22,8 @@ class Comp1 extends React.Component<{}, ContentText> {
 
   public titreRef: HTMLDivElement | null;
   public description1Ref: HTMLDivElement | null;
-  public description2Ref: HTMLDivElement | null;
+  public description2RefDesk: HTMLDivElement | null;
+  public description2RefMobile: HTMLDivElement | null;
   public description3Ref: HTMLDivElement | null;
 
   public constructor(props: {}) {
@@ -42,7 +43,8 @@ class Comp1 extends React.Component<{}, ContentText> {
 
     INNERHTML(this.titreRef, this.state.titre);
     INNERHTML(this.description1Ref, this.state.description1);
-    INNERHTML(this.description2Ref, this.state.description2);
+    INNERHTML(this.description2RefDesk, this.state.description2);
+    INNERHTML(this.description2RefMobile, this.state.description2);
     INNERHTML(this.description3Ref, this.state.description3);
 
   }
@@ -55,13 +57,17 @@ class Comp1 extends React.Component<{}, ContentText> {
           <XwImage className="howto1" image={HowTo1} background={HowTo1Background}/>
           <div className="comp-1-description1" ref={description1Ref => this.description1Ref = description1Ref}/>
         </div>
-        <div className="comp-1-content2">
-          <div className="comp-1-description2" ref={description2Ref => this.description2Ref = description2Ref} />
+        <div className="comp-1-content2 desk">
+          <div className="comp-1-description2" ref={description2RefDesk => this.description2RefDesk = description2RefDesk} />
           <div><XwImage className="howto2" image={HowTo2} background={HowTo2Background}/></div>
         </div>
+        <div className="comp-1-content2 mobile">
+          <div><XwImage className="howto2" image={HowTo2} background={HowTo2Background}/></div>
+          <div className="comp-1-description2" ref={description2RefMobile => this.description2RefMobile = description2RefMobile} />
+        </div>
         <div className="comp-1-content3">
-          <div className="comp-1-description3" ref={description3Ref => this.description3Ref = description3Ref}/>
           <div><XwImage className="howto3" image={HowTo3} background={HowTo3Background}/></div>
+          <div className="comp-1-description3" ref={description3Ref => this.description3Ref = description3Ref}/>
         </div>
       </div>
     );
