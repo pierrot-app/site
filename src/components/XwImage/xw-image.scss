@@ -1,15 +1,16 @@
-@import './../../Styles/colors';
+@import "./../../Styles/colors";
 
-.xw-image{
+.xw-image {
   img {
     // position: absolute;
   }
   .image {
     width: 45%;
-    transform: rotate(10deg);
+    transform: rotate(-2deg);
   }
-  .background{
+  .background {
     width: 48%;
-    transform: rotate(-20deg);
+    max-width: 800px;
+    transform: rotate(-4deg);
   }
 }
