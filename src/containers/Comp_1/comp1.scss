@@ -1,11 +1,11 @@
 @import './../../Styles/colors';
 
 $contentWidth: 55%;
-$contentMarginTop: 9%;
-$contentMarginBottom: 10%;
+$contentMarginTop: 15vh;
+$contentMarginBottom: 10vh;
 $descriptionWidth: 100%;
 $imageWidth: 55%;
-$imageMarginTop: -10%;
+$imageMarginTop: -10vh;
 $imagePosition: 20%;
 
 .comp-1 {
@@ -13,7 +13,7 @@ $imagePosition: 20%;
   flex-direction: column;
   &-titre{
     align-self: center;
-    margin-top: 10%;
+    margin-top: 10vh;
     margin-bottom: 50px;
     font-size: 1.9rem;
     color: $textblack;

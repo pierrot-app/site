@@ -1,7 +1,7 @@
 @import './../../Styles/colors';
 
-$paddingTop: 5%;
-$paddingBottom: 5%;
+$paddingTop: 5vh;
+$paddingBottom: 5vh;
 $paddingLeft: 12%;
 
 .footer {
@@ -11,7 +11,7 @@ $paddingLeft: 12%;
   .social-content {
     padding-top: $paddingTop;
     padding-left: $paddingLeft;
-    padding-bottom: 2%;
+    padding-bottom: 2vh;
     width: 95%;
     img{
       width: 20%;
@@ -19,7 +19,7 @@ $paddingLeft: 12%;
     .social-content-text {
       width: 40%;
       color: $blanc;
-      margin-bottom: 2%;
+      margin-bottom: 2vh;
       font-size: 1.1rem;
       b {
         font-weight: 700;

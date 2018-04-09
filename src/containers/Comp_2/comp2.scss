@@ -2,14 +2,14 @@
 
 .comp-2 {
   background-color: $gray2;
-  margin-top: 8%;
+  margin-top: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   .titre{
     font-size: 2em;
-    margin-top: 6%;
-    margin-bottom: 0.7%;
+    margin-top: 6vh;
+    margin-bottom: 0.7vh;
     b {
       font-weight: 700;
     }
@@ -22,8 +22,8 @@
     }
   }
   .email{
-    margin-top: 1.8%;
-    margin-bottom: 7%;
+    margin-top: 1.8vh;
+    margin-bottom: 7vh;
     width: 40%;
     max-width: 550px;
   }
