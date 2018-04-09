@@ -35,7 +35,12 @@ class EmailInput extends React.Component<EmailInputProps, EmailInputState> {
      formData.append('email', this.state.value);
      fetch(scriptURL, { method: 'POST', body: formData })
        .then(response => {
-         this.setState({value: ''});
+         this.setState({value: 'c\'est enregistré, merci ! '});
+         // HACK
+         setTimeout(() => {
+          this.setState({value: ''});
+         },         3000);
+
         })
        .catch(error =>  error.message);
    }
