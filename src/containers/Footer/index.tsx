@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './footer.scss';
 import { INNERHTML } from './../../utils';
+
 const logoTexteWhite = require('./../../assets/images/Logo-Texte-White.svg');
 const content = require('./../../assets/texts/content-v1.json');
 
@@ -50,14 +51,14 @@ class Footer extends React.Component<{}, ContentText> {
           <div className="social-content-text" ref={titreRef => this.titreRef = titreRef}/>
           <div className="social-content-text" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
         </div>
-        <div className="social-link">
+        {/* <div className="social-link">
           <a href={this.state.lien1.lien}>
             <img className="social-logo" src={require(`./../../assets/images/${this.state.lien1.logo}`)} alt={this.state.lien1.titre}/>
           </a>
           <a href={this.state.lien2.lien}>
             <img className="social-logo" src={require(`./../../assets/images/${this.state.lien2.logo}`)} alt={this.state.lien2.titre}/>
           </a>
-        </div>
+        </div> */}
       </div>
     );
   }

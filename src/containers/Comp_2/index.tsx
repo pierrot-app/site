@@ -1,7 +1,8 @@
 import * as React from 'react';
 import './comp2.scss';
 import { INNERHTML } from './../../utils';
-import EmailInput from './../Elements/EmailInput/';
+import EmailInput from './../../components/EmailInput/';
+
 const content = require('./../../assets/texts/content-v1.json');
 
 interface ContentText {

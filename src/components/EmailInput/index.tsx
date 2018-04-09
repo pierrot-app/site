@@ -45,8 +45,8 @@ class EmailInput extends React.Component<EmailInputProps, EmailInputState> {
   render() {
     return (
       <div className={`${this.props.className} email-input`}>
-        <input className="input-text" type="text" value={this.state.value} onChange={e => this.handleChange(e)} placeholder="Entrez votre addresse email" />
-        <button className="input-submit" type="submit" onClick={e => this.handleSubmit(e)}>Ça m'intéresse</button>
+        <input className="input-text" type="text" value={this.state.value} onChange={e => this.handleChange(e)} placeholder="Entrez votre email"/>
+        <button className="input-submit" type="submit" onClick={e => this.handleSubmit(e)}>Ça m'interesse</button>
       </div>
     );
   }

@@ -1,6 +1,8 @@
+@import './../../Styles/colors';
+
 .xw-image{
   img {
-    position: absolute;
+    // position: absolute;
   }
   .image {
     width: 45%;
@@ -8,6 +10,6 @@
   }
   .background{
     width: 48%;
-    transform: rotate(5deg);
+    transform: rotate(-20deg);
   }
 }

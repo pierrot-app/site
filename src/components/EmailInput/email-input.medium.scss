@@ -1,0 +1,27 @@
+@media screen and (max-width: 1260px) {
+
+    .email-input {
+        font-size: 0.8em;
+        input{
+        }
+        .input-text{
+            font-size: 0.8em;
+            &:hover, &:focus{
+            }
+            &::placeholder {
+            }
+            &:focus {
+            &::placeholder {
+            }
+            &+ .input-submit{
+            }
+            }
+            &::placeholder {
+            }
+        }
+        .input-submit{
+            &:hover{
+            }
+        }
+    }
+}

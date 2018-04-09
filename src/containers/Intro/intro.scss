@@ -1,4 +1,4 @@
-@import './../Elements/Styles/colors';
+@import './../../Styles/colors';
 
 .intro {
   background-color: white;
@@ -29,7 +29,6 @@
       background-color: transparent;
       align-self: center;
       color: $noir;
-      div {
         .titre {
           width: 35%;
           position: absolute;
@@ -44,11 +43,10 @@
           }
         }
         .highlight {
-          width: 30%;
+          width: 25%;
           position: absolute;
           transform: rotate(-4deg);
         }
-      }
       .email{
       }
       .description {
@@ -66,6 +64,7 @@
       .intro-illustration {
         img {
           right: -3%;
+          position: absolute;
         }
         .image {
           top: 30%;
@@ -78,4 +77,5 @@
   }
 }
 
-@import './intro.1260.scss';
+@import './intro.medium.scss';
+@import './intro.small.scss';

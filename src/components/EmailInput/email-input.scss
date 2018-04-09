@@ -1,4 +1,4 @@
-@import './../../Elements/Styles/colors';
+@import './../../Styles/colors';
 
 .email-input {
   display: flex;
@@ -16,12 +16,13 @@
     border-style: solid;
   }
   .input-text{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 1px;
     font-size: 1em;
     background-color: $blanc;
     border-color: $vert;
-    padding: 16px 20px 16px 20px;
+    padding: 16px 20px;
     width: 100%;
     &:hover, &:focus{
       border-color: $bleu;
@@ -74,3 +75,6 @@
     }
   }
 }
+
+@import './email-input.medium.scss';
+@import './email-input.small.scss';

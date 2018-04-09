@@ -1,12 +1,13 @@
 import * as React from 'react';
 import './intro.scss';
 import { INNERHTML } from './../../utils';
-import XwButton from './../Elements/XwButton/';
-import XwImage from './../Elements/XwImage/';
-import EmailInput from './../Elements/EmailInput/';
+import { XwButton } from './../../components/XwButton/';
+import { XwImage } from './../../components/XwImage/';
+import EmailInput from './../../components/EmailInput/';
+
 const logoTexte = require('./../../assets/images/Logo-Texte.svg');
 const Highlight = require('./../../assets/images/Highlight.png');
-const Hero = require('./../../assets/images/Hero.png');
+const Hero = require('./../../assets/images/Hero-Image.png');
 const HeroBackground = require('./../../assets/images/Hero-Background.svg');
 const content = require('./../../assets/texts/content-v1.json');
 
@@ -45,10 +46,8 @@ class Intro extends React.Component<{}, ContentTextState> {
         </div>
         <div className="content">
           <div className="content-text">
-            <div>
               <img src={Highlight} className="highlight" alt="logo with texte" />
               <div className="titre" ref={titreRef => this.titreRef = titreRef}/>
-            </div>
             <div className="description" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
             <EmailInput className="email"/>
           </div>

@@ -1,0 +1,94 @@
+@import './../../Styles/colors';
+
+@media screen and (max-width: 820px) {
+
+    .comp-1 {
+        margin: 0 15px;
+        text-align: center;
+        &-titre{
+            font-size: 1.3em;
+            margin-bottom: 5%;
+            margin-top: inherit;
+        }
+        &-content1{
+            margin-top: 50px;
+            display: block;
+            .comp-1-description1 {
+                text-align: center;
+                width: 100%;
+                font-size: 1em;
+                margin-bottom: 20px;
+            }
+            .howto1{
+                height: 200px;
+                width: 200px;
+                margin: 0 auto;
+                .image {
+                    width: 200px;
+                }
+                .background {
+                    width: 220px;
+                }
+                // img {
+                //     left: inherit;
+                // }
+            }
+        }
+        &-content2{
+            display: block;
+            .comp-1-description2{
+                text-align: center;
+                width: 100%;
+                font-size: 0.8em;
+                margin-top: 25px;
+                margin-bottom: 20px;
+            }
+            .howto2{
+                height: 200px;
+                width: 200px;
+                margin: 0 auto;
+                .image {
+                    width: 200px;
+                }
+                .background {
+                    width: 220px;
+                }
+                img {
+                    left: inherit;
+                }
+            }
+        }
+        &-content2.desk{
+            display: none;
+        }
+        &-content2.mobile{
+            display: block;
+        }
+        &-content3{
+            display: block;
+            .comp-1-description3{
+                margin-top: 15px;
+                margin-bottom: 20px;
+                text-align: center;
+                width: 100%;
+                font-size: 1em;
+                margin-top: 25px;
+            }
+            .howto3{
+                height: 200px;
+                width: 200px;
+                margin: 0 auto;
+                .image {
+                    width: 200px;
+                }
+                .background {
+                    width: 220px;
+                }
+                // img {
+                //     left: inherit;
+                // }
+            }
+        }
+    }
+
+}
