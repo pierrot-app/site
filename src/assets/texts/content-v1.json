@@ -1,21 +1,21 @@
 {
   "INTRO": {
     "titre": "<b>Les meilleurs plats</b> sont fait avec <b>les meilleurs produits !</b>",
-    "description_1": "<b>Découvrez Pierrot</b>, l’assistant vocal qui trouve les produits qui vous correspondent <b>chez les producteurs et les artisans</b> de votre quartier."
+    "description_1": "<b>D&#233;couvrez Pierrot</b>, l’assistant vocal qui trouve les produits qui vous correspondent <b>chez les producteurs et les artisans</b> de votre quartier."
   },
   "COMP_1": {
-    "titre": "<b>Redécouvrez la cuisine</b> avec Pierrot",
+    "titre": "<b>Red&#233;couvrez la cuisine</b> avec Pierrot",
     "description_1": "<b>Vous cuisinez</b> une bonne raclette, mais <b>vous en avez marre</b> du fromage <b>sans saveur</b> ?",
-    "description_2": "<b>Pierrot s’adapte à vos goûts</b> pour <b>trouver le fromager</b> qui vous correspond, <b>à deux pas</b> de chez vous !",
-    "description_3": "Grâce à Pierrot, chacun de <b>vos plats</b> deviennent <b>inoubliables</b> !"
+    "description_2": "<b>Pierrot s’adapte à vos go&#251;ts</b> pour <b>trouver le fromager</b> qui vous correspond, <b>&#224; deux pas</b> de chez vous !",
+    "description_3": "Gr&#226;ce &#224; Pierrot, chacun de <b>vos plats</b> deviennent <b>inoubliables</b> !"
   },
   "COMP_2": {
-    "titre": "<b>Ça vous interesse ?</b>",
-    "description_1": "Découvrez Pierrot en avant-première !"
+    "titre": "<b>&#199;a vous int&#233;resse ?</b>",
+    "description_1": "D&#233;couvrez Pierrot en avant-premi&#232;re !"
   },
   "FOOTER": {
     "titre": "",
-    "description_1": "<b>L’assistant vocal qui fait du bien à votre assiette.</b> Pierrot connait les plats que vous aimez et trouve pour vous les meilleurs produits de votre quartier.",
+    "description_1": "<b>L’assistant vocal qui fait du bien a&#224; votre assiette.</b> Pierrot connait les plats que vous aimez et trouve pour vous les meilleurs produits de votre quartier.",
     "lien_1": {
       "lien": "https://github.com/pierrot-app",
       "logo": "github.png",

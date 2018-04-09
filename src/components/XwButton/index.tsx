@@ -11,7 +11,7 @@ export const XwButton = (
   }: Style) => (
     <div className={`${className} xw-button`}>
       <button>
-        <a href="mailto:pierrot-app@edu.gobelins.fr">Demander une démo</a>
+        <a href="mailto:pierrot-app@edu.gobelins.fr">Demander une d&#233;mo</a>
       </button>
     </div>
 );
