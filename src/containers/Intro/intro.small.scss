@@ -1,6 +1,6 @@
 @media screen and (max-width: 820px) {
   .intro {
-    height: 75vh;
+    height: 100%;
     .en-tete {
       margin-bottom: 20px;
       .logo-texte {
@@ -17,14 +17,12 @@
       display: inline-block;
       margin: 0 auto;
       width: 100%;
-
       &-text {
         margin: 30px auto;
-        width: 90%;
-
+        width: 100%;
         .titre {
           font-size: 1.3em;
-          width: inherit;
+          width: 90%;
           margin: 0 15px;
           text-align: center;
           position: relative;
@@ -36,8 +34,6 @@
           width: 250px;
           left: 50%;
           transform: translate3d(-50%, 0%, 0);
-          // position: absolute;
-          // transform: rotate(-4deg);
         }
         .email {
           text-align: center;
@@ -46,6 +42,7 @@
         }
         .description {
           margin: 30px auto;
+          width: 80%;
           display: block;
           font-size: 1em;
           line-height: 1.5em;
@@ -56,10 +53,9 @@
         }
       }
       &-illustration {
-        display: none;
-        width: 320px;
-        height: 320px;
-        margin: 40px auto 0 auto;
+        width: 270px;
+        height: 270px;
+        margin: 20px auto 0 auto;
         .intro-illustration {
           img {
             right: inherit;
@@ -74,7 +70,7 @@
           }
           .background {
             top: inherit;
-            width: 320px;
+            width: 270px;
           }
         }
       }

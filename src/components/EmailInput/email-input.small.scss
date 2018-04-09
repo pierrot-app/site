@@ -2,33 +2,17 @@
     .email-input {
         display: inline-block;
         font-size: 0.8em;
-        input{
-        }
         .input-text{
             border-radius: 5px;
             font-size: 0.8em;
-            width: 255px;
-            // width: 235px;
-            &:hover, &:focus{
-            }
-            &::placeholder {
-            }
-            &:focus {
-            &::placeholder {
-            }
-            &+ .input-submit{
-            }
-            }
-            &::placeholder {
-            }
+            width: 100%;
+            width: 250px
         }
         .input-submit{
             display: inherit;
             width: 295px;
             border-radius: 5px;
             margin-top: 5px;
-            &:hover{
-            }
         }
     }
 }

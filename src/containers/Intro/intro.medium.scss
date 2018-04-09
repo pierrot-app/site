@@ -1,11 +1,6 @@
 @media screen and (max-width: 1260px) {
+  
   .intro {
-    .en-tete {
-      .logo-texte {
-      }
-      .intro-xw-button {
-      }
-    }
     .content {
       &-text {
         .titre {
@@ -19,8 +14,6 @@
           width: 40%;
           position: absolute;
           transform: rotate(-4deg);
-        }
-        .email {
         }
         .description {
           display: inline-block;
@@ -50,4 +43,5 @@
       }
     }
   }
+
 }
