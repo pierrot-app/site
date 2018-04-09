@@ -1,13 +1,13 @@
 {
   "INTRO": {
-    "titre": "<b>Les meilleurs plats</b> sont fait avec <b>les meilleurs produits&nbsp;!</b>",
-    "description_1": "<b>Découvrez Pierrot</b>, l’assistant vocal qui trouve les produits qui vous correspondent <b>chez les producteurs et les artisans</b> de votre quartier."
+    "titre": "Il n'est jamais trop tard <br><b>pour faire un bon plat&nbsp;!</b>",
+    "description_1": "<b>Découvrez Pierrot</b>, l’assistant vocal qui donne une seconde vie à <b>vos produits dépassés.</b> Installez-le dans votre cuisine et il vous aidera à préparer vos aliments avant qu'ils ne pourrissent."
   },
   "COMP_1": {
     "titre": "<b>Redécouvrez la cuisine</b> avec Pierrot",
-    "description_1": "<b>Vous cuisinez</b> une bonne raclette, mais <b>vous en avez marre</b> du fromage <b>sans saveur</b>&nbsp;?",
-    "description_2": "<b>Pierrot s’adapte à vos goûts</b> pour <b>trouver le fromager</b> qui vous correspond, <b>à deux pas</b> de chez vous&nbsp;!",
-    "description_3": "Grâce à Pierrot, chacun de <b>vos plats</b> deviennent <b>inoubliables</b>&nbsp;!"
+    "description_1": "Ça fait des jours que que <b>de magnifiques aubergines</b> attendent dans votre bac à légume mais <b>vous ne savez pas quoi en faire&nbsp;?</b>",
+    "description_2": "<b>Pierrot est là pour vous conseiller</b> sur la meilleure façon <b>de conserver et de cuisiner</b> ces produits selon vos critères&nbsp;!",
+    "description_3": "<b>Fini le gaspillage !</b> Grâce à Pierrot, découvrez une nouvelle manière de consommer&nbsp;!"
   },
   "COMP_2": {
     "titre": "<b>Ça vous interesse&nbsp;?</b>",
@@ -15,7 +15,7 @@
   },
   "FOOTER": {
     "titre": "",
-    "description_1": "<b>L’assistant vocal qui fait du bien à votre assiette.</b> Pierrot connait les plats que vous aimez et trouve pour vous les meilleurs produits de votre quartier.",
+    "description_1": "<b>L’assistant qui rend les vieux aliments appétissants.</b> Pierrot vous accompagne pour transformer les produits que vous risquez de jeter.",
     "lien_1": {
       "lien": "https://github.com/pierrot-app",
       "logo": "github.svg",
