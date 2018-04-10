@@ -1,4 +1,4 @@
-@import './../../Styles/colors';
+@import "./../../Styles/colors";
 
 $contentWidth: 55%;
 $contentMarginTop: 15vh;
@@ -11,9 +11,9 @@ $imagePosition: 20%;
 .comp-1 {
   display: flex;
   flex-direction: column;
-  &-titre{
+  &-titre {
     align-self: center;
-    margin-top: 10vh;
+    margin-top: 6vh;
     margin-bottom: 50px;
     font-size: 1.9rem;
     color: $textblack;
@@ -21,13 +21,13 @@ $imagePosition: 20%;
       font-weight: 700;
     }
   }
-  &-content1{
+  &-content1 {
     align-self: center;
     margin-top: $contentMarginTop;
     display: flex;
     justify-content: flex-end;
     width: $contentWidth;
-    .comp-1-description1{
+    .comp-1-description1 {
       width: $descriptionWidth;
       font-size: 1.2rem;
       color: $textgray;
@@ -35,15 +35,15 @@ $imagePosition: 20%;
         font-weight: 700;
       }
     }
-    .howto1{
-      .background {
+    .howto1 {
+      img {
         width: $imageWidth;
-        margin-top: $imageMarginTop;
+        // margin-top: -1vh;
         left: $imagePosition;
       }
     }
   }
-  &-content2{
+  &-content2 {
     align-self: center;
     margin-top: $contentMarginTop;
     display: flex;
@@ -51,14 +51,14 @@ $imagePosition: 20%;
     width: $contentWidth;
     font-size: 1.2rem;
     color: $textgray;
-    .comp-1-description2{
+    .comp-1-description2 {
       width: $descriptionWidth;
       b {
         font-weight: 700;
       }
     }
-    .howto2{
-      .background {
+    .howto2 {
+      img {
         width: $imageWidth;
         margin-top: $imageMarginTop;
         right: $imagePosition;
@@ -69,13 +69,13 @@ $imagePosition: 20%;
   &-content2.mobile {
     display: none;
   }
-  &-content3{
+  &-content3 {
     align-self: center;
     margin-top: $contentMarginTop;
     display: flex;
     justify-content: flex-end;
     width: $contentWidth;
-    .comp-1-description3{
+    .comp-1-description3 {
       width: $descriptionWidth;
       font-size: 1.2rem;
       color: $textgray;
@@ -83,8 +83,8 @@ $imagePosition: 20%;
         font-weight: 700;
       }
     }
-    .howto3{
-      .background {
+    .howto3 {
+      img {
         width: $imageWidth;
         margin-top: $imageMarginTop;
         left: $imagePosition;
@@ -93,5 +93,5 @@ $imagePosition: 20%;
   }
 }
 
-@import './comp1.medium.scss';
-@import './comp1.small.scss';
+@import "./comp1.medium.scss";
+@import "./comp1.small.scss";

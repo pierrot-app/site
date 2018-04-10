@@ -35,7 +35,12 @@ class EmailInput extends React.Component<EmailInputProps, EmailInputState> {
      formData.append('email', this.state.value);
      fetch(scriptURL, { method: 'POST', body: formData })
        .then(response => {
-         this.setState({value: ''});
+         this.setState({value: 'c\'est enregistré, merci ! '});
+         // HACK
+         setTimeout(() => {
+          this.setState({value: ''});
+         },         3000);
+
         })
        .catch(error =>  error.message);
    }
@@ -46,7 +51,7 @@ class EmailInput extends React.Component<EmailInputProps, EmailInputState> {
     return (
       <div className={`${this.props.className} email-input`}>
         <input className="input-text" type="text" value={this.state.value} onChange={e => this.handleChange(e)} placeholder="Entrez votre email"/>
-        <button className="input-submit" type="submit" onClick={e => this.handleSubmit(e)}>Ça m'int&#233;resse</button>
+        <button className="input-submit" type="submit" onClick={e => this.handleSubmit(e)}>&#199;a m'int&#233;resse</button>
       </div>
     );
   }

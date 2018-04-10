@@ -1,4 +1,4 @@
-@import './../../Styles/colors';
+@import "./../../Styles/colors";
 
 $paddingTop: 5vh;
 $paddingBottom: 5vh;
@@ -13,8 +13,9 @@ $paddingLeft: 12%;
     padding-left: $paddingLeft;
     padding-bottom: 2vh;
     width: 95%;
-    img{
+    img {
       width: 20%;
+      max-width: 200px;
     }
     .social-content-text {
       width: 40%;
@@ -40,7 +41,7 @@ $paddingLeft: 12%;
         opacity: 0.5;
         -webkit-transition: opacity 0.3s;
         transition: opacity 0.3s;
-        &:hover{
+        &:hover {
           opacity: 1;
           -webkit-transition: opacity 0.3s;
           transition: opacity 0.3s;
@@ -50,5 +51,5 @@ $paddingLeft: 12%;
   }
 }
 
-@import './footer.medium.scss';
-@import './footer.small.scss';
+@import "./footer.medium.scss";
+@import "./footer.small.scss";

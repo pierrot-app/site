@@ -1,4 +1,4 @@
-@import './../../Styles/colors';
+@import "./../../Styles/colors";
 
 .intro {
   background-color: white;
@@ -6,7 +6,7 @@
   .en-tete {
     display: flex;
     margin-top: 2vh;
-    justify-content:space-between;
+    justify-content: space-between;
     .logo-texte {
       width: 180px;
       height: 50px;
@@ -19,9 +19,9 @@
       align-self: flex-end;
     }
   }
-  .content{
+  .content {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     &-text {
       width: 42%;
       max-width: 620px;
@@ -31,25 +31,25 @@
       background-color: transparent;
       align-self: center;
       color: $noir;
-        .titre {
-          width: 35%;
-          position: absolute;
-          z-index: 1;
-          font-size: 2em;
-          color: #222222;
-          line-height: 34px;
-          font-weight: 400;
-          color: $textblack;
-          b {
-            font-weight: 700;
-          }
+      .titre {
+        width: 35%;
+        position: absolute;
+        z-index: 1;
+        font-size: 2em;
+        color: #222222;
+        line-height: 1.4em;
+        font-weight: 400;
+        color: $textblack;
+        b {
+          font-weight: 700;
         }
-        .highlight {
-          width: 40%;
-          position: absolute;
-          transform: rotate(-4deg);
-        }
-      .email{
+      }
+      .highlight {
+        width: 25%;
+        position: absolute;
+        transform: rotate(-4deg);
+      }
+      .email {
       }
       .description {
         width: 85%;
@@ -69,15 +69,16 @@
           position: absolute;
         }
         .image {
-          top: 30%;
+          top: 20%;
         }
-        .background{
-          top: 35%;
+        .background {
+          top: 25%;
+          max-width: 600px;
         }
       }
     }
   }
 }
 
-@import './intro.medium.scss';
-@import './intro.small.scss';
+@import "./intro.medium.scss";
+@import "./intro.small.scss";

@@ -1,29 +1,31 @@
-@import './../../Styles/colors';
+@import "./../../Styles/colors";
 
 .email-input {
   display: flex;
   flex-direction: row;
   width: 90%;
-  input{
+  input {
     font-size: 0.5em;
     letter-spacing: 0.75px;
-    -webkit-transition: background-color 0.3s;
-    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
     outline: none;
     border-color: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-  .input-text{
+  .input-text {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-width: 1px;
+    border-style: solid;
     font-size: 1em;
     background-color: $blanc;
     border-color: $vert;
     padding: 16px 20px;
     width: 100%;
-    &:hover, &:focus{
+    &:hover,
+    &:focus {
       border-color: $bleu;
     }
     &::placeholder {
@@ -39,21 +41,20 @@
         -webkit-transform: translateY(-50%);
         transition: 0.15s ease-in-out;
       }
-      &+ .input-submit{
-          border-color: $bleu;
-          background-color: $bleu;
-          -webkit-transition: background-color 0.5s;
-          transition: background-color 0.5s;
-          -webkit-transition: border-color 0.5s;
-          transition: border-color 0.5s;
+      & + .input-submit {
+        border-color: $bleu;
+        background-color: $bleu;
+        -webkit-transition: background-color 0.2s;
+        transition: background-color 0.2s;
+        -webkit-transition: border-color 0.2s;
+        transition: border-color 0.2s;
       }
     }
     &::placeholder {
       color: $vert;
     }
-
   }
-  .input-submit{
+  .input-submit {
     width: 70%;
     padding: 17px 10px;
     border-top-right-radius: 5px;
@@ -62,17 +63,17 @@
     font-size: 1em;
     border-color: $vert;
     background-color: $vert;
-    -webkit-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-    &:hover{
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    &:hover {
       background-color: $bleu;
       border-color: $bleu;
-      -webkit-transition: background-color 0.5s;
-      transition: background-color 0.5s;
+      -webkit-transition: background-color 0.2s;
+      transition: background-color 0.2s;
       cursor: pointer;
     }
   }
 }
 
-@import './email-input.medium.scss';
-@import './email-input.small.scss';
+@import "./email-input.medium.scss";
+@import "./email-input.small.scss";
