@@ -5,7 +5,7 @@ $contentMarginTop: 15vh;
 $contentMarginBottom: 10vh;
 $descriptionWidth: 100%;
 $imageWidth: 55%;
-$imageMarginTop: -10vh;
+$imageMarginTop: -5vh;
 $imagePosition: 20%;
 
 .comp-1 {
@@ -36,7 +36,7 @@ $imagePosition: 20%;
       }
     }
     .howto1{
-      img {
+      .background {
         width: $imageWidth;
         margin-top: $imageMarginTop;
         left: $imagePosition;
@@ -58,7 +58,7 @@ $imagePosition: 20%;
       }
     }
     .howto2{
-      img {
+      .background {
         width: $imageWidth;
         margin-top: $imageMarginTop;
         right: $imagePosition;
@@ -84,7 +84,7 @@ $imagePosition: 20%;
       }
     }
     .howto3{
-      img {
+      .background {
         width: $imageWidth;
         margin-top: $imageMarginTop;
         left: $imagePosition;
