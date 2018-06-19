@@ -1,0 +1,55 @@
+@import "./../../../Styles/colors";
+
+$paddingTop: 5vh;
+$paddingBottom: 5vh;
+$paddingLeft: 12%;
+
+.footer {
+  background-color: $vert;
+  display: flex;
+  flex-direction: row;
+  .social-content {
+    padding-top: $paddingTop;
+    padding-left: $paddingLeft;
+    padding-bottom: 2vh;
+    width: 95%;
+    img {
+      width: 20%;
+      max-width: 200px;
+    }
+    .social-content-text {
+      width: 40%;
+      color: $blanc;
+      margin-bottom: 2vh;
+      font-size: 1.1rem;
+      b {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: auto;
+    width: 4%;
+    a {
+      text-decoration: none;
+      .social-logo {
+        width: 80%;
+        opacity: 0.5;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+        &:hover {
+          opacity: 1;
+          -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s;
+        }
+      }
+    }
+  }
+}
+
+@import "./footer.medium.scss";
+@import "./footer.small.scss";

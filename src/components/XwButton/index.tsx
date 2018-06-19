@@ -1,17 +1,19 @@
 import * as React from 'react';
 import './xw-button.scss';
 
-interface Style {
+interface XwButton {
   className: string;
+  text: string;
 }
 
 export const XwButton = (
   {
     className,
-  }: Style) => (
+    text
+  }: XwButton) => (
     <div className={`${className} xw-button`}>
       <button>
-        <a href="mailto:pierrot-app@edu.gobelins.fr">Demander une d&#233;mo</a>
+        <a href="mailto:pierrot-app@edu.gobelins.fr">{text}</a>
       </button>
     </div>
 );

@@ -1,0 +1,15 @@
+@media screen and (max-width: 820px) {
+    .comp-3 {
+        margin-top: 0;
+        .titre{
+            font-size: 1.4em;
+        }
+        .description{
+            font-size: 1em;
+        }
+        .email{
+            margin: 20px auto;
+            width: inherit;
+        }
+      }
+}

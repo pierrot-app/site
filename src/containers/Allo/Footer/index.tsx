@@ -1,9 +1,9 @@
 import * as React from 'react';
 import './footer.scss';
-import { INNERHTML } from './../../utils';
+import { INNERHTML } from './../../../utils';
 
-const logoTexteWhite = require('./../../assets/images/Logo-Texte-White.svg');
-const content = require('./../../assets/texts/content-v1.json');
+const logoTexteWhite = require('./../../../assets/images/Logo-Texte-White.svg');
+const content = require('./../../../assets/texts/content-v1.json');
 
 interface Liens {
   lien?: string;

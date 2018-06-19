@@ -1,15 +1,15 @@
 import * as React from 'react';
 import './intro.scss';
-import { INNERHTML } from './../../utils';
-import { XwButton } from './../../components/XwButton/';
-import { XwImage } from './../../components/XwImage/';
-import EmailInput from './../../components/EmailInput/';
+import { INNERHTML } from './../../../utils';
+import { XwButton } from './../../../components/XwButton/';
+import { XwImage } from './../../../components/XwImage/';
+import EmailInput from './../../../components/EmailInput/';
 
-const logoTexte = require('./../../assets/images/Logo-Texte.svg');
-const Highlight = require('./../../assets/images/Highlight.png');
-const Hero = require('./../../assets/images/Hero-Image.png');
-const HeroBackground = require('./../../assets/images/Hero-Background.svg');
-const content = require('./../../assets/texts/content-v1.json');
+const logoTexte = require('./../../../assets/images/allo/logo/logo.svg');
+const Highlight = require('./../../../assets/images/Highlight.png');
+const Hero = require('./../../../assets/images/Hero-Image.png');
+const HeroBackground = require('./../../../assets/images/Hero-Background.svg');
+const content = require('./../../../assets/texts/content-v1.json');
 
 interface ContentTextState {
   titre: string;
@@ -24,8 +24,8 @@ class Intro extends React.Component<{}, ContentTextState> {
   public constructor(props: {}) {
     super(props);
 
-    const titre = content.INTRO.titre;
-    const description1 = content.INTRO.description_1;
+    const titre = content.ALLO.INTRO.titre;
+    const description1 = content.ALLO.INTRO.description_1;
     this.state = { titre: titre, description1: description1};
 
   }
@@ -37,12 +37,23 @@ class Intro extends React.Component<{}, ContentTextState> {
 
   }
 
+  rollerCaster = (el: Element, duration: number) => {
+
+    console.log(el, duration);
+    return '';
+  }
+
   render() {
     return (
       <div className="intro">
         <div className="en-tete">
-          <img src={logoTexte} className="logo-texte" alt="logo with texte" />
-          <XwButton className="intro-xw-button"/>
+          <div className="logo">
+            <img src={logoTexte} alt="logo with texte" />
+            <div className="logo-text">
+              <span><b>Allo, </b></span><span>Paprika</span>
+            </div>
+          </div>
+          <XwButton className="intro-xw-button" text="Obtenez le votre"/>
         </div>
         <div className="content">
           <div className="content-text">

@@ -4,7 +4,7 @@ import './registration.scss';
 class Registration extends React.Component {
   render() {
     return (
-      <div className="registration">
+      <div className="allo-registration">
         allo registration
       </div>
     );

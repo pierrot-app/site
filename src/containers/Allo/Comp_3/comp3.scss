@@ -1,6 +1,6 @@
-@import './../../Styles/colors';
+@import './../../../Styles/colors';
 
-.comp-2 {
+.comp-3 {
   background-color: $gray2;
   margin-top: 8vh;
   display: flex;
@@ -29,5 +29,5 @@
   }
 }
 
-@import './comp2.medium.scss';
-@import './comp2.small.scss';
+@import './comp3.medium.scss';
+@import './comp3.small.scss';

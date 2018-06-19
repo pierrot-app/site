@@ -32,5 +32,55 @@
       "logo": "medium.svg",
       "titre": "medium"
     }
+  },
+  "ALLO": {
+    "INTRO": {
+    "titre":
+      "<b>Les meilleurs produits</b> sont déja <b>chez vous !</b>",
+    "description_1":
+      "Allo, c'est un coach vocal pour une maison éco-responsable. Fini les poubelle ! Il trouve une astuce pour donner une seconde vie a tous les produits de la maison"
+    },
+    "COMP_1": {
+      "titre": "A chaque pièce sont expert",
+      "description":"A l'intérieur d'Allo, vous trouverez cinqs spécialistes pour vous aider a consommer malin, à votre rythme, un espace à la fois, avec des conseils qui vous correspondent",
+      "paprika" : {
+        "titre": "Paprika",
+        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
+      },
+      "marin" : {
+        "titre": "Marin",
+        "description": "..."
+      },
+      "pepin" : {
+        "titre": "Pepin",
+        "description": "..."
+      },
+      "jack" : {
+        "titre": "Jack",
+        "description": "..."
+      },
+      "polochon" : {
+        "titre": "Polochon",
+        "description": "..."
+      }
+    },
+    "COMP_2": {
+      "titre": "Obetnir le votre",
+      "description": "Dans le cadre de son plan \"Paris Anti-Gaspi\", votre ville s'engage et vous accompagne pour moins de gaspillage alimentaire. Dés demain, vous pouvez récupérer gratuitement votre assistant Allo, à la mairie de votre arrondissement"
+    },
+    "FOOTER": {
+      "titre": "",
+      "description_1":"<b>L’assistant qui rend les vieux aliments app&#233;tissants.</b> Pierrot vous accompagne pour transformer les produits que vous risquez de jeter.",
+      "lien_1": {
+        "lien": "https://github.com/pierrot-app",
+        "logo": "github.svg",
+        "titre": "github"
+      },
+      "lien_2": {
+        "lien": "https://medium.com/@pierrotapp",
+        "logo": "medium.svg",
+        "titre": "medium"
+      }
+    }
   }
 }

@@ -1,0 +1,23 @@
+.slider {
+    .chips {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        .chip {
+            background-color: yellow;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            margin-right: 1vw;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .items{
+        list-style: none;
+        .item{
+
+        }
+    }
+}

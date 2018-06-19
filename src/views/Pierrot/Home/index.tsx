@@ -1,9 +1,9 @@
 import * as React from 'react';
 import './home.scss';
-import Intro from './../../containers/Intro/';
-import Comp_1 from './../../containers/Comp_1/';
-import Comp_2 from './../../containers/Comp_2/';
-import Footer from './../../containers/Footer/';
+import Intro from './../../../containers/Pierrot/Intro/';
+import Comp_1 from './../../../containers/Pierrot/Comp_1/';
+import Comp_2 from './../../../containers/Pierrot/Comp_2/';
+import Footer from './../../../containers/Pierrot/Footer/';
 
 class Home extends React.Component {
   render() {

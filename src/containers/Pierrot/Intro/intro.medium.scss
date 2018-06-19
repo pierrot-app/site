@@ -1,0 +1,47 @@
+@media screen and (max-width: 1260px) {
+  
+  .intro {
+    .content {
+      &-text {
+        .titre {
+          font-size: 1.6em;
+          line-height: 1.6em;
+          b {
+            font-weight: 700;
+          }
+        }
+        .highlight {
+          width: 40%;
+          position: absolute;
+          transform: rotate(-4deg);
+        }
+        .description {
+          display: inline-block;
+          width: 85%;
+          margin-top: 24%;
+          margin-bottom: 4%;
+          font-size: 1em;
+          line-height: 1.5em;
+          color: $textgray;
+          b {
+            font-weight: 700;
+          }
+        }
+      }
+      &-illustration {
+        .intro-illustration {
+          img {
+            right: -3%;
+          }
+          .image {
+            top: 30%;
+          }
+          .background {
+            top: 35%;
+          }
+        }
+      }
+    }
+  }
+
+}

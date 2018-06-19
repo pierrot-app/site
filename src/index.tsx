@@ -4,7 +4,7 @@ import registerServiceWorker from './workers/registerServiceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.scss';
 
-import Home from './views/Home/';
+import Home from './views/Pierrot/Home/';
 import AlloHome from './views/Allo/Home/';
 
 // TODO ADD react-router if necessary

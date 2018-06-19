@@ -1,15 +1,15 @@
 import * as React from 'react';
 import './comp1.scss';
-import { INNERHTML } from './../../utils';
-import { XwImage } from './../../components/XwImage/';
+import { INNERHTML } from './../../../utils';
+import { XwImage } from './../../../components/XwImage/';
 
-const HowTo1 = require('./../../assets/images/HowTo-1.png');
-const HowTo2 = require('./../../assets/images/HowTo-2.png');
-const HowTo3 = require('./../../assets/images/HowTo-3.png');
-const HowTo1Background = require('./../../assets/images/HowTo-Background-1.svg');
-const HowTo2Background = require('./../../assets/images/HowTo-Background-2.svg');
-const HowTo3Background = require('./../../assets/images/HowTo-Background-3.svg');
-const content = require('./../../assets/texts/content-v1.json');
+const HowTo1 = require('./../../../assets/images/HowTo-1.png');
+const HowTo2 = require('./../../../assets/images/HowTo-2.png');
+const HowTo3 = require('./../../../assets/images/HowTo-3.png');
+const HowTo1Background = require('./../../../assets/images/HowTo-Background-1.svg');
+const HowTo2Background = require('./../../../assets/images/HowTo-Background-2.svg');
+const HowTo3Background = require('./../../../assets/images/HowTo-Background-3.svg');
+const content = require('./../../../assets/texts/content-v1.json');
 
 interface ContentText {
   titre: string;
