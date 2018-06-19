@@ -21,7 +21,7 @@ class SliderContent extends React.Component<IntContent, {}> {
   render() {
     return (
       <div className="slider-content">
-        <div> {this.props.image} </div>
+        <div> <img src={this.props.image}/> </div>
         <div>
           <div> {this.props.content.titre} </div>
           <div> {this.props.content.description} </div>

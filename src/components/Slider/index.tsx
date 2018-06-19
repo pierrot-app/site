@@ -2,7 +2,9 @@ import * as React from 'react';
 import './slider.scss';
 
 interface IntPropsSlider {
-    contents: Array<JSX.Element>;
+  contents: Array<JSX.Element>;
+  entities: Entities;
+  first: string;
 }
 
 interface IntStateSlider {
@@ -21,14 +23,19 @@ class Slider extends React.Component<IntPropsSlider, IntStateSlider> {
 
   public constructor(props: IntPropsSlider) {
     super(props);
-    this.state = { displayer: { paprika: 'block', marin: 'none', pepin: 'none', polochon: 'none', jack: 'none'} };
+    this.state = { displayer: this.props.entities };
     this.switchItem = this.switchItem.bind(this);
   }
 
-  switchItem (e: React.MouseEvent<HTMLDivElement>, index: number, name: string) {
-    const display = {paprika: 'none', marin: 'none', pepin: 'none', polochon: 'none', jack: 'none'};
+  componentDidMount() {
+    this.switchItem(this.props.first);
+  }
+
+  switchItem (name: string, e?: React.MouseEvent<HTMLDivElement>, index?: number) {
+    const display = Object.assign({}, this.props.entities);
     display[name] = 'block';
     this.setState({displayer: {paprika: display.paprika, marin: display.marin, pepin: display.pepin, polochon: display.polochon, jack: display.jack}});
+  
   }
 
   createItem = (el: JSX.Element, index: number, name: string) => {
@@ -44,7 +51,7 @@ class Slider extends React.Component<IntPropsSlider, IntStateSlider> {
   createChip = (el: JSX.Element, index: number, name: string) => {
     const chip = (
       <li key={index} >
-        <div onClick={(e) => this.switchItem(e, index, name)} className="chip"/>
+        <div onClick={(e) => this.switchItem(name, e, index)} className="chip"/>
       </li>
     );
     return chip;
