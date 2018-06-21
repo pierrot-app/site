@@ -1,5 +1,36 @@
 .slider-content {
     display: flex;
-    // background-color: green;
     margin: 10px;
+    .images-container {
+        display: flex;
+        img{
+            align-self: flex-end;
+            margin-left: auto;
+            width: 55%;
+        }
+    }
+    .texts-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        .titre{
+            margin-left: 17.4%;
+            font-weight: bold;
+            font-size: 1.5em;
+            color: #FFA000;
+            margin-bottom: 1.3vh;
+        }
+        .description{
+            margin-left: 17.4%;
+            width: 50%;
+            color: #444;
+            font-size: 1em;
+            line-height: 1.5em;
+            b {
+                color: #444444;
+            }
+        }
+    }
 }
+
+@import "./sliderContent.small.scss";

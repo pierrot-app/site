@@ -42,31 +42,31 @@
     },
     "COMP_1": {
       "titre": "A chaque pièce sont expert",
-      "description":"A l'intérieur d'Allo, vous trouverez cinqs spécialistes pour vous aider a consommer malin, à votre rythme, un espace à la fois, avec des conseils qui vous correspondent",
+      "description":"A l'intérieur d'Allo, vous trouverez <b>cinqs spécialistes</b> pour vous aider a consommer malin, à votre rythme, un espace à la fois, avec des conseils qui vous correspondent",
       "paprika" : {
         "titre": "Paprika",
-        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
+        "description": "Une <b>carotte</b> traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
       },
       "marin" : {
         "titre": "Marin",
-        "description": "..."
+        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
       },
       "pepin" : {
         "titre": "Pepin",
-        "description": "..."
+        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
       },
       "jack" : {
         "titre": "Jack",
-        "description": "..."
+        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
       },
       "polochon" : {
         "titre": "Polochon",
-        "description": "..."
+        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
       }
     },
     "COMP_2": {
       "titre": "Obetnir le votre",
-      "description": "Dans le cadre de son plan \"Paris Anti-Gaspi\", votre ville s'engage et vous accompagne pour moins de gaspillage alimentaire. Dés demain, vous pouvez récupérer gratuitement votre assistant Allo, à la mairie de votre arrondissement"
+      "description": "Dans le cadre de son plan <b>\"Paris Anti-Gaspi\"</b>, votre ville s'engage et vous accompagne pour moins de gaspillage alimentaire. Dés demain, vous pouvez récupérer gratuitement votre assistant Allo, à la mairie de votre arrondissement"
     },
     "FOOTER": {
       "titre": "",

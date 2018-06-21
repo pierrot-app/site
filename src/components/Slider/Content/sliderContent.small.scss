@@ -1,0 +1,38 @@
+@media screen and (max-width: 820px) {
+    .slider-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 50px;
+        .images-container {
+            display: flex;
+            img{
+                align-self: flex-end;
+                margin: auto;
+                width: 55%;
+            }
+        }
+        .texts-container {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            .titre{
+                margin: auto;
+                font-weight: bold;
+                font-size: 1.5em;
+                color: #FFA000;
+                margin-bottom: 1.3vh;
+            }
+            .description{
+                margin: auto;
+                width: 50%;
+                color: #444;
+                font-size: 1em;
+                line-height: 1.5em;
+                b {
+                    color: #444444;
+                }
+            }
+        }
+    }
+}

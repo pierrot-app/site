@@ -34,7 +34,7 @@ class Slider extends React.Component<IntPropsSlider, IntStateSlider> {
   switchItem (name: string, e?: React.MouseEvent<HTMLDivElement>, index?: number) {
     const display = Object.assign({}, this.props.entities);
     display[name] = 'block';
-    this.setState({displayer: {paprika: display.paprika, marin: display.marin, pepin: display.pepin, polochon: display.polochon, jack: display.jack}});
+    this.setState({displayer: display});
   
   }
 
@@ -66,12 +66,16 @@ class Slider extends React.Component<IntPropsSlider, IntStateSlider> {
     const chips = this.props.contents.map((el, index) => {
       const chip = this.createChip(el, index, el.props.name);
       return chip;
-  });
+    });
 
     return (
       <div className="slider">
-        <ul className="chips">{chips}</ul>
-        <ul className="items">{items}</ul>
+        <div className="chips-container">
+          <ul className="chips">{chips}</ul>
+        </div>
+        <div className="items-container">
+          <ul className="items">{items}</ul>
+        </div>
       </div>
     );
   }

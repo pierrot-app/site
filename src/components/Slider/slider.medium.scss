@@ -1,0 +1,38 @@
+@media screen and (max-width: 1260px) {
+    .slider {
+        width: 100%;
+        margin-top: 5%;
+        .chips-container {
+            position: absolute;
+            width: 51.8%; // update with W size
+            right: 0%;
+            margin-top: 0px;
+            .chips {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                padding: 0%;
+                margin-left: 20%; 
+                .chip {
+                    background-color: #E0DFDF;
+                    border-radius: 50%;
+                    width: 10px;
+                    height: 10px;
+                    margin-right: 0.8vw;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #444;
+                    }
+                }
+            }
+        }
+        .items-container {
+            .items{
+                list-style: none;
+                .item{
+
+                }
+            }
+        } 
+    }
+}

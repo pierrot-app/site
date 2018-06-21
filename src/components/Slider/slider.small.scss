@@ -1,0 +1,45 @@
+@media screen and (max-width: 820px) {
+    .slider {
+        width: 100%;
+        margin-top: 8%;
+        .chips-container {
+            position: relative;
+            right: inherit;
+            margin: auto;
+            display: flex;
+            align-content: center;
+            .chips {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+                padding: auto;
+                .chip {
+                    background-color: #E0DFDF;
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #444;
+                    }
+                }
+                li {
+                    margin-right: 2.8vw;
+
+                    &:last-child {
+                        margin-right: -0.8vw;
+                    }
+                }
+            }
+        }
+        .items-container {
+            .items{
+                list-style: none;
+                .item{
+
+                }
+            }
+        } 
+    }
+}

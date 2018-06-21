@@ -1,4 +1,5 @@
 @import "./../../../Styles/colors";
+@import "./../../../Styles/animate";
 
 .intro {
   background-color: white;
@@ -17,7 +18,15 @@
         align-self: center;
       }
       .logo-text{
-        display: inline;
+        display: flex;
+        flex-direction: row;
+        .allo{
+          margin-right: 4px;
+        }
+        .entitie{
+          // -webkit-animation: fadeOutUp 1.3s 2s;
+          // animation: fadeOutUp 1.3s 2s;
+        }
       }
     }
     .intro-xw-button {
