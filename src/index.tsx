@@ -10,6 +10,7 @@ import AlloHome from './views/Allo/Home/';
 ReactDOM.render((
   <Router>
     <div>
+      <Route path="**" component={AlloHome} />
       <Route exact={true} path="/" component={AlloHome} />
       <Route path="/pierrot" component={Home} />
     </div>
