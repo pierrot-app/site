@@ -11,7 +11,7 @@ ReactDOM.render((
   <Router>
     <div>
       <Route path="**" component={AlloHome} />
-      <Route exact={true} path="/" component={AlloHome} />
+      <Route exact={true} path={process.env.PUBLIC_URL + '/'} component={AlloHome} />
       <Route path="/pierrot" component={Home} />
     </div>
   </Router>
