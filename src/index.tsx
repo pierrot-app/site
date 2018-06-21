@@ -7,7 +7,6 @@ import './index.scss';
 import Home from './views/Pierrot/Home/';
 import AlloHome from './views/Allo/Home/';
 
-// TODO ADD react-router if necessary
 ReactDOM.render((
   <Router>
     <div>
