@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.2e857afb.css",
-  "main.css.map": "static/css/main.2e857afb.css.map",
-  "main.js": "static/js/main.7d3c8fab.js",
-  "main.js.map": "static/js/main.7d3c8fab.js.map",
+  "main.css": "static/css/main.c75cbf33.css",
+  "main.css.map": "static/css/main.c75cbf33.css.map",
+  "main.js": "static/js/main.30d5bc9e.js",
+  "main.js.map": "static/js/main.30d5bc9e.js.map",
   "static/media/Hero-Background.svg": "static/media/Hero-Background.f0325845.svg",
   "static/media/Hero-Image.png": "static/media/Hero-Image.c0dd44a5.png",
   "static/media/Highlight.png": "static/media/Highlight.eb609755.png",
@@ -13,5 +13,10 @@
   "static/media/HowTo-Background-2.svg": "static/media/HowTo-Background-2.556879d3.svg",
   "static/media/HowTo-Background-3.svg": "static/media/HowTo-Background-3.839886c1.svg",
   "static/media/Logo-Texte-White.svg": "static/media/Logo-Texte-White.01aef586.svg",
-  "static/media/Logo-Texte.svg": "static/media/Logo-Texte.c16df958.svg"
+  "static/media/Logo-Texte.svg": "static/media/Logo-Texte.c16df958.svg",
+  "static/media/allo.png": "static/media/allo.fda17c31.png",
+  "static/media/logo.svg": "static/media/logo.4be15c7a.svg",
+  "static/media/marin.png": "static/media/marin.2dc97ccb.png",
+  "static/media/paprika.png": "static/media/paprika.b0d6af70.png",
+  "static/media/pepin.png": "static/media/pepin.d93ebf59.png"
 }
