@@ -5,7 +5,7 @@ class Team extends React.Component {
   render() {
     return (
       <div className="allo-team">
-        allo team
+        Allo team
       </div>
     );
   }

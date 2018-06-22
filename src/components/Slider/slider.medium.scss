@@ -4,7 +4,7 @@
         margin-top: 5%;
         .chips-container {
             position: absolute;
-            width: 51.8%; // update with W size
+            width: 38.5vw;
             right: 0%;
             margin-top: 0px;
             .chips {
@@ -12,7 +12,6 @@
                 display: flex;
                 flex-direction: row;
                 padding: 0%;
-                margin-left: 20%; 
                 .chip {
                     background-color: #E0DFDF;
                     border-radius: 50%;

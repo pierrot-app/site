@@ -39,7 +39,7 @@ class Intro extends React.Component<{}, ContentTextState> {
     INNERHTML(this.titreRef, this.state.titre);
     INNERHTML(this.descriptionRef, this.state.description1);
     var el = document.getElementById('entitie_animated');
-    this.rollerCaster(el!, 3000);
+    this.rollerCaster(el!, 3500);
 
   }
 

@@ -6,13 +6,15 @@ import './index.scss';
 
 import Home from './views/Pierrot/Home/';
 import AlloHome from './views/Allo/Home/';
+import Team from './views/Allo/Team/';
 
 ReactDOM.render((
   <Router>
     <div>
-      <Route path="**" component={AlloHome} />
+      {/* <Route path="**" component={AlloHome} /> */}
       <Route exact={true} path={process.env.PUBLIC_URL + '/'} component={AlloHome} />
-      <Route path="/pierrot" component={Home} />
+      <Route path={process.env.PUBLIC_URL + '/pierrot'} component={Home} />
+      <Route path={process.env.PUBLIC_URL + '/about'} component={Team} />
     </div>
   </Router>
   ),

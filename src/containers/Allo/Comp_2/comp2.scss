@@ -1,9 +1,9 @@
 .allo-comp-2 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10%;
+    margin-bottom: 8vh;
     .titre-comp-2 {
-        margin-top: 8%;
+        margin-top: 8vh;
         text-align: center;
         font-weight: bold;
         font-size: 1.7em;
@@ -24,13 +24,13 @@
     .image-comp-2 {
         align-self: center;
         display: flex;
-        align-content: center;
-        margin-top: 5%;
-        width: 60%;
+        margin-top: 10vh;
+        width: 40vw;
+        height: 40vh;
         img {
-            margin: 0 auto auto auto;
-            width: 75%;
-            height: 40%;
+            margin: auto;
+            width: 100%;
+            height: 100%;
         }
     }
 }
