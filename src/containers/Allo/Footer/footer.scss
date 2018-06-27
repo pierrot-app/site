@@ -5,7 +5,7 @@ $paddingBottom: 5vh;
 $paddingLeft: 12%;
 
 .footer {
-  background-color: $vert;
+  background-color: #4A4A4A;
   display: flex;
   flex-direction: row;
   .social-content {
@@ -14,7 +14,7 @@ $paddingLeft: 12%;
     padding-bottom: 2vh;
     width: 95%;
     img {
-      width: 20%;
+      width: 4%;
       max-width: 200px;
     }
     .social-content-text {

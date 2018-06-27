@@ -2,7 +2,7 @@ import * as React from 'react';
 import './footer.scss';
 import { INNERHTML } from './../../../utils';
 
-const logoTexteWhite = require('./../../../assets/images/Logo-Texte-White.svg');
+const logo = require('./../../../assets/images/allo/logo/logo.svg');
 const content = require('./../../../assets/texts/content-v1.json');
 
 interface Liens {
@@ -47,7 +47,7 @@ class Footer extends React.Component<{}, ContentText> {
     return (
       <div className="footer">
         <div className="social-content">
-          <img src={logoTexteWhite} className="logo-texte" alt="logo with texte" />
+          <img src={logo} className="logo-texte" alt="logo with texte" />
           <div className="social-content-text" ref={titreRef => this.titreRef = titreRef}/>
           <div className="social-content-text" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
         </div>
