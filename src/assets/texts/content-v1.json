@@ -16,12 +16,12 @@
   },
   "COMP_2": {
     "titre": "<b>&#199;a vous int&#233;resse&nbsp;?</b>",
-    "description_1": "D&#233;couvrez Pierrot en avant-premi&#232;re&nbsp;!"
+    "description_1": "D&#233;couvrez Pierrot et sa version testable en ligne <br>en avant-premi&#232;re&nbsp;!"
   },
   "FOOTER": {
     "titre": "",
     "description_1":
-      "<b>L’assistant qui rend les vieux aliments app&#233;tissants.</b> Pierrot vous accompagne pour transformer les produits que vous risquez de jeter.",
+      "<b>L’assistant vocal qui fait du bien à votre maison.</b> Chaque expert connait vos goûts et trouve, pour vous,<br>les meilleures astuces pour tous ces produits <br>qui méritent une seconde vie.",
     "lien_1": {
       "lien": "https://github.com/pierrot-app",
       "logo": "github.svg",
@@ -36,7 +36,7 @@
   "ALLO": {
     "INTRO": {
     "titre":
-      "<b>Les meilleurs produits</b> sont déja <b>chez vous !</b>",
+      "<b>Les meilleurs produits</b><br>sont déja <b>chez vous !</b>",
     "description_1":
       "Allo, c'est un coach vocal pour une maison éco-responsable. Fini les poubelle ! Il trouve une astuce pour donner une seconde vie a tous les produits de la maison"
     },
@@ -49,11 +49,11 @@
       },
       "marin" : {
         "titre": "Marin",
-        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
+        "description": "Avec Marin, vos sachets de thé <br>deviennent la solution miracle pour <br>faire briller la salle de bain."
       },
       "pepin" : {
         "titre": "Pepin",
-        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
+        "description": "Fini les engrais chimiques, <br>Pépin connaît une poudre magique <br>à faire en 2 temps 3 mouvements."
       },
       "jack" : {
         "titre": "Jack",
@@ -65,7 +65,7 @@
       }
     },
     "COMP_2": {
-      "titre": "Obetnir le votre",
+      "titre": "Obtenir le votre",
       "description": "Dans le cadre de son plan <b>\"Paris Anti-Gaspi\"</b>, votre ville s'engage et vous accompagne pour moins de gaspillage alimentaire. Dés demain, vous pouvez récupérer gratuitement votre assistant Allo, à la mairie de votre arrondissement"
     },
     "FOOTER": {
