@@ -73,7 +73,7 @@ class Intro extends React.Component<{}, ContentTextState> {
             <img src={logoTexte} alt="logo with texte" />
             <div className="logo-text">
               <div className="allo"><b>Allo, </b></div>
-              <div id="entitie_animated" className="entitie">{this.state.entities[this.state.entitie]}</div>
+              <div id="entitie_animated" className={'entitie ' + this.state.entities[this.state.entitie]}>{this.state.entities[this.state.entitie]}</div>
             </div>
           </div>
           <XwButton className="intro-xw-button" text="Obtenir le votre"/>

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './sliderContent.scss';
+import './SliderContent.scss';
 import { INNERHTML } from './../../../utils';
 
 interface IntContent {
@@ -40,7 +40,7 @@ class SliderContent extends React.Component<IntContent, ContentTextState> {
           <img src={this.props.image}/>
         </div>
         <div className="texts-container">
-          <div className="titre"> {this.props.content.titre} </div>
+          <div className={'titre ' + this.props.content.titre}> {this.props.content.titre} </div>
           <div className="description" ref={descriptionRef => this.descriptionRef = descriptionRef}/>
         </div>
       </div>

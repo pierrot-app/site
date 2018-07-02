@@ -24,6 +24,22 @@
           margin-right: 4px;
         }
         .entitie{
+          font-weight: bold;
+          &.Paprika{
+            color: #FFA32D;
+          }
+          &.Marin{
+            color: #45C7E2;
+          }
+          &.Pepin{
+            color: #3EC8AC;
+          }
+          &.Jack{
+            color:  #FFE373;
+          }
+          &.Polochon{
+            color:  #F8376D;
+          }
           // -webkit-animation: fadeOutUp 1.3s 2s;
           // animation: fadeOutUp 1.3s 2s;
         }

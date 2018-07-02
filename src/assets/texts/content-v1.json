@@ -38,14 +38,14 @@
     "titre":
       "<b>Les meilleurs produits</b><br>sont déja <b>chez vous !</b>",
     "description_1":
-      "Allo, c'est un coach vocal pour une maison éco-responsable. Fini les poubelle ! Il trouve une astuce pour donner une seconde vie a tous les produits de la maison"
+      "<b>Allo</b>, c'est un <b>assistant vocal</b> pour une maison <b>éco-responsable</b>. <b>Fini la poubelle !</b> Il trouve une astuce pour donner <b>une seconde vie</b> à tous les produits de la maison"
     },
     "COMP_1": {
       "titre": "A chaque pièce sont expert",
-      "description":"A l'intérieur d'Allo, vous trouverez <b>cinqs spécialistes</b> pour vous aider a consommer malin, à votre rythme, un espace à la fois, avec des conseils qui vous correspondent",
+      "description":"A l'intérieur d'Allo, vous trouverez <b>cinq spécialistes</b> pour vous aider à <b>consommer malin, à votre rythme, un espace à la fois,</b> avec des conseils qui <b>vous correspondent.</b>",
       "paprika" : {
         "titre": "Paprika",
-        "description": "Une <b>carotte</b> traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
+        "description": "Une <b>carotte</b> traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide à la conserver 1 mois de plus!"
       },
       "marin" : {
         "titre": "Marin",
