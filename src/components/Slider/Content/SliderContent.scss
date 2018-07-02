@@ -16,10 +16,26 @@
         width: 75vw;
         .titre{
             margin-left: 17.4%;
+            margin-top: 10px;
             font-weight: bold;
             font-size: 1.5em;
             color: #FFA000;
             margin-bottom: 1.3vh;
+            &.Marin {
+                color: #45C7E2;
+            }
+            &.Paprika {
+                color: #FFA32D;
+            }
+            &.Polochon {
+                color: #F8376D;
+            }
+            &.Pepin {
+                color: #3EC8AC;
+            }
+            &.Jack {
+                color: #FFE373;
+            }
         }
         .description{
             margin-left: 17.4%;

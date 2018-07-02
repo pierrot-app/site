@@ -41,8 +41,8 @@
       "<b>Allo</b>, c'est un <b>assistant vocal</b> pour une maison <b>éco-responsable</b>. <b>Fini la poubelle !</b> Il trouve une astuce pour donner <b>une seconde vie</b> à tous les produits de la maison"
     },
     "COMP_1": {
-      "titre": "A chaque pièce sont expert",
-      "description":"A l'intérieur d'Allo, vous trouverez <b>cinq spécialistes</b> pour vous aider à <b>consommer malin, à votre rythme, un espace à la fois,</b> avec des conseils qui <b>vous correspondent.</b>",
+      "titre": "À chaque pièce son expert",
+      "description":"À l'intérieur d'Allo, vous trouverez <b>cinq spécialistes</b> pour vous aider à <b>consommer malin, à votre rythme, un espace à la fois,</b> avec des conseils qui <b>vous correspondent.</b>",
       "paprika" : {
         "titre": "Paprika",
         "description": "Une <b>carotte</b> traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide à la conserver 1 mois de plus!"
@@ -57,16 +57,16 @@
       },
       "jack" : {
         "titre": "Jack",
-        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
+        "description": "Il vous aide à changer une pièce usagée de votre aspirateur ou vous indique quoi faire de votre vieux lecteur DVD."
       },
       "polochon" : {
         "titre": "Polochon",
-        "description": "Une carotte traine dans votre frigo et vous ne savez pas quoi en faire ? Paprika vous aide a la conserver 1 mois de plus!"
+        "description": "C'est le spécialiste pour donner une seconde vie à votre linge de maison ou transformer vos vieux vêtements."
       }
     },
     "COMP_2": {
       "titre": "Obtenir le votre",
-      "description": "Dans le cadre de son plan <b>\"Paris Anti-Gaspi\"</b>, votre ville s'engage et vous accompagne pour moins de gaspillage alimentaire. Dés demain, vous pouvez récupérer gratuitement votre assistant Allo, à la mairie de votre arrondissement"
+      "description": "Dans le cadre de son plan <b>\"Paris Anti-Gaspi\"</b>, votre ville s'engage et vous accompagne pour <b>moins de gaspillage alimentaire</b>. Dés demain, vous pouvez récupérer votre assistant Allo, à la <b>mairie de votre commune.</b>"
     },
     "FOOTER": {
       "titre": "",

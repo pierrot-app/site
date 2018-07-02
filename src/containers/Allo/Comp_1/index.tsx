@@ -9,8 +9,8 @@ const content = require('./../../../assets/texts/content-v1.json');
 const paprikaImage = require('./../../../assets/images/allo/illustration/paprika.png');
 const marinImage = require('./../../../assets/images/allo/illustration/marin.png');
 const pepinImage = require('./../../../assets/images/allo/illustration/pepin.png');
-// const polochonImage = require('./../../../assets/images/allo/illustration/polochon.png');
-// const jack = require('./../../../assets/images/allo/illustration/jack.png');
+const polochonImage = require('./../../../assets/images/allo/illustration/polochon.png');
+const jack = require('./../../../assets/images/allo/illustration/jack.png');
 
 interface ContentTextState {
   description1?: string;
@@ -38,8 +38,8 @@ class Comp1 extends React.Component<{}, ContentTextState> {
     const contents: Array<JSX.Element> = [
         <SliderContent key="0" content={content.ALLO.COMP_1.paprika} image={paprikaImage} name="paprika"/>,
         <SliderContent key="2" content={content.ALLO.COMP_1.marin} image={marinImage} name="marin" />,
-        // <SliderContent key="3" content={content.ALLO.COMP_1.polochon} image={polochonImage} name="polochon" />,
-        // <SliderContent key="4" content={content.ALLO.COMP_1.jack} image={jack} name="jack" />,
+        <SliderContent key="3" content={content.ALLO.COMP_1.polochon} image={polochonImage} name="polochon" />,
+        <SliderContent key="4" content={content.ALLO.COMP_1.jack} image={jack} name="jack" />,
         <SliderContent key="5" content={content.ALLO.COMP_1.pepin} image={pepinImage} name="pepin" />
     ];
 

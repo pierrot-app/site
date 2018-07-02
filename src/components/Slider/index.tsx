@@ -35,7 +35,6 @@ class Slider extends React.Component<IntPropsSlider, IntStateSlider> {
     const display = Object.assign({}, this.props.entities);
     display[name] = 'block';
     this.setState({displayer: display});
-  
   }
 
   createItem = (el: JSX.Element, index: number, name: string) => {

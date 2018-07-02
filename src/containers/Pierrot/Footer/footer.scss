@@ -13,6 +13,7 @@ $paddingLeft: 12%;
     padding-left: $paddingLeft;
     padding-bottom: 2vh;
     width: 95%;
+    display: inline-flex;
     img {
       width: 20%;
       max-width: 200px;
@@ -21,6 +22,7 @@ $paddingLeft: 12%;
       width: 40%;
       color: $blanc;
       margin-bottom: 2vh;
+      margin-left: 2vw;
       font-size: 1.1rem;
       b {
         font-weight: 700;
