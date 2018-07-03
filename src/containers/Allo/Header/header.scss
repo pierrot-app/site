@@ -1,0 +1,55 @@
+@import "./../../../Styles/colors";
+@import "./../../../Styles/animate";
+
+.header {
+  background-color: white;
+  .en-tete {
+    display: flex;
+    margin-top: 2vh;
+    justify-content: space-between;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 10vw;
+      img {
+        margin-right: 1vw;
+        align-self: center;
+      }
+      .logo-text{
+        display: flex;
+        flex-direction: row;
+        .allo{
+          margin-right: 4px;
+        }
+        .entitie{
+          font-weight: bold;
+          &.Paprika{
+            color: #FFA32D;
+          }
+          &.Marin{
+            color: #45C7E2;
+          }
+          &.Pepin{
+            color: #3EC8AC;
+          }
+          &.Jack{
+            color:  #FFE373;
+          }
+          &.Polochon{
+            color:  #F8376D;
+          }
+          // -webkit-animation: fadeOutUp 1.3s 2s;
+          // animation: fadeOutUp 1.3s 2s;
+        }
+      }
+    }
+    .intro-xw-button {
+      margin-right: 10%;
+      align-self: flex-end;
+    }
+  }
+}
+
+@import "./header.medium.scss";
+@import "./header.small.scss";

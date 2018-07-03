@@ -6,7 +6,7 @@ import './index.scss';
 
 import Home from './views/Pierrot/Home/';
 import AlloHome from './views/Allo/Home/';
-import Team from './views/Allo/Team/';
+import About from './views/Allo/About/';
 
 ReactDOM.render((
   <Router>
@@ -14,7 +14,7 @@ ReactDOM.render((
       {/* <Route path="**" component={AlloHome} /> */}
       <Route exact={true} path={process.env.PUBLIC_URL + '/'} component={AlloHome} />
       <Route path={process.env.PUBLIC_URL + '/pierrot'} component={Home} />
-      <Route path={process.env.PUBLIC_URL + '/about'} component={Team} />
+      <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
     </div>
   </Router>
   ),
